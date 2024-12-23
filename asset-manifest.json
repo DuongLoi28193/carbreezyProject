@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/carbreezyProject/static/css/main.1025328e.css",
-    "main.js": "/carbreezyProject/static/js/main.2fc00097.js",
+    "main.js": "/carbreezyProject/static/js/main.0e9d7235.js",
     "static/js/488.da0a66d9.chunk.js": "/carbreezyProject/static/js/488.da0a66d9.chunk.js",
     "static/media/car-offers-6.jpeg": "/carbreezyProject/static/media/car-offers-6.4260a99defbba01045a3.jpeg",
     "static/media/car-offers-4.jpg": "/carbreezyProject/static/media/car-offers-4.51efbb9b11a93094f98c.jpg",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/carbreezyProject/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/carbreezyProject/index.html",
     "main.1025328e.css.map": "/carbreezyProject/static/css/main.1025328e.css.map",
-    "main.2fc00097.js.map": "/carbreezyProject/static/js/main.2fc00097.js.map",
+    "main.0e9d7235.js.map": "/carbreezyProject/static/js/main.0e9d7235.js.map",
     "488.da0a66d9.chunk.js.map": "/carbreezyProject/static/js/488.da0a66d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1025328e.css",
-    "static/js/main.2fc00097.js"
+    "static/js/main.0e9d7235.js"
   ]
 }
