@@ -20,7 +20,7 @@ const FERRARInew = () => {
       width: "1920 mm",
       length: "4700 mm",
       color: "Silver",
-      imgSrc: "../img/ferrari01.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ferrari01.jpg",
       year: 2022,
       priceWithout: 180000,
       power: "456 kW"
@@ -38,7 +38,7 @@ const FERRARInew = () => {
       width: "1980 mm",
       length: "4700 mm",
       color: "Silver",
-      imgSrc: "../img/ferrari6.jpeg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ferrari6.jpeg",
       year: 2021,
       priceWithout: 580400,
       power: "735 kW"
@@ -56,7 +56,7 @@ const FERRARInew = () => {
       width: "1940 mm",
       length: "4570 mm",
       color: "Red",
-      imgSrc: "../img/ferrari11.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ferrari11.jpg",
       year: 2020,
       priceWithout: 1500000,
       power: "588 kW"
@@ -74,7 +74,7 @@ const FERRARInew = () => {
       width: "1980 mm",
       length: "4540 mm",
       color: "Blue",
-      imgSrc: "../img/ferrari19.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ferrari19.jpg",
       year: 2019,
       priceWithout: 1905000,
       power: "618 kW"
@@ -92,7 +92,7 @@ const FERRARInew = () => {
       width: "1950 mm",
       length: "4650 mm",
       color: "Red",
-      imgSrc: "../img/ferrari25.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ferrari25.jpg",
       year: 2020,
       priceWithout: 2600000,
       power: "610 kW"
@@ -110,7 +110,7 @@ const FERRARInew = () => {
       width: "1953 mm",
       length: "4566 mm",
       color: "Red",
-      imgSrc: "../img/ferrari29.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ferrari29.jpg",
       year: 2016,
       power: "493 kW",
       priceWithout: 22800

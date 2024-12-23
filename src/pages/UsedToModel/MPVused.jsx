@@ -20,7 +20,7 @@ function MPVused() {
                 "width": "1805 mm",
                 "length": "4525 mm",
                 "color": "",
-                "imgSrc": "/img/kia21.jpg",
+                "imgSrc": process.env.PUBLIC_URL + "/img/kia21.jpg",
                 "year": 2022,
                 "power": "104 kW",
                 "newPrice": 10235,

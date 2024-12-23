@@ -19,7 +19,7 @@ function MPVnew() {
             width: "1780 mm",
             length: "4490 mm",
             color: "White",
-            imgSrc: "../img/honda32.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/honda32.jpg",
             year: 2022,
             newPrice: 31000,
             power: " 88 kW"
@@ -37,7 +37,7 @@ function MPVnew() {
             width: "2095 mm",
             length: "4976 mm",
             color: "White",
-            imgSrc: "../img/ford33.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford33.jpg",
             year: 2022,
             newPrice: 40000,
             power: "170 kW"
@@ -55,7 +55,7 @@ function MPVnew() {
             width: "1985 mm",
             length: "5115 mm",
             color: "White",
-            imgSrc: "../img/kia36.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/kia36.jpg",
             year: 2022,
             newPrice: 37700,
             power: "147 kW"
@@ -73,7 +73,7 @@ function MPVnew() {
             width: "1805 mm",
             length: "4525 mm",
             color: "",
-            imgSrc: "../img/kia21.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/kia21.jpg",
             year: 2022,
             newPrice: 19200,
             power: "121 kW"

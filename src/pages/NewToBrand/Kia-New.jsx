@@ -19,7 +19,7 @@ const KIAnew = () => {
       width: "1800 mm",
       ength: "4540 mm",
       color: "White",
-      imgSrc: "../img/kia01.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/kia01.jpg",
       year: 2023,
       priceWithout: 27950,
       power: "140 kW"
@@ -37,7 +37,7 @@ const KIAnew = () => {
       width: "1800 mm",
       length: "4540 mm",
       color: "White",
-      imgSrc: "../img/kia06.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/kia06.jpg",
       year: 2023,
       priceWithout: 28500,
       power: "115 kW"
@@ -56,7 +56,7 @@ const KIAnew = () => {
       width: "1800 mm",
       length: "4640 mm",
       color: "Blue",
-      imgSrc: "../img/kia12.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/kia12.jpg",
       year: 2022,
       priceWithout: 21400,
       power: "104 kW"
@@ -74,7 +74,7 @@ const KIAnew = () => {
       width: "1800 mm",
       length: "4640 mm",
       color: "White",
-      imgSrc: "../img/kia12.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/kia12.jpg",
       year: 2024,
       priceWithout: 23000,
       power: "115 kW"
@@ -92,7 +92,7 @@ const KIAnew = () => {
       width: "1805 mm",
       length: "4525 mm",
       color: "black",
-      imgSrc: "../img/kia21.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/kia21.jpg",
       year: 2022,
       priceWithout: 19666,
       power: "113 kW"
@@ -110,7 +110,7 @@ const KIAnew = () => {
       width: "1790 mm",
       length: "4120 mm",
       color: "Red",
-      imgSrc: "../img/kia26.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/kia26.jpg",
       year: 2022
     },
     {
@@ -126,7 +126,7 @@ const KIAnew = () => {
       width: "1985 mm",
       length: "5115 mm",
       color: "White",
-      imgSrc: "../img/kia36.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/kia36.jpg",
       year: 2022,
       priceWithout: 37950,
       power: "147 kW"

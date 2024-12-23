@@ -22,7 +22,7 @@ function Newcar3() {
                 width: "1980 mm",
                 length: "4700 mm",
                 color: "Silver",
-                imgSrc: "./img/ferrari6.jpeg",
+                imgSrc: process.env.PUBLIC_URL + "/img/ferrari6.jpeg",
                 year: 2021,
                 power: "735 kW",
                 priceWithout: 580400
@@ -40,7 +40,7 @@ function Newcar3() {
                 width: "1940 mm",
                 length: "4570 mm",
                 color: "Red",
-                imgSrc: "./img/ferrari11.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/ferrari11.jpg",
                 year: 2020,
                 power: "588 kW",
                 priceWithout: 1500000
@@ -58,7 +58,7 @@ function Newcar3() {
                 width: "1980 mm",
                 length: "4540 mm",
                 color: "Blue",
-                imgSrc: "./img/ferrari19.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/ferrari19.jpg",
                 year: 2019,
                 power: "618 kW",
                 priceWithout: 1905000
@@ -76,7 +76,7 @@ function Newcar3() {
                 width: "1950 mm",
                 length: "4650 mm",
                 color: "Red",
-                imgSrc: "./img/ferrari25.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/ferrari25.jpg",
                 year: 2020,
                 power: "610 kW",
                 priceWithout: 2600000
@@ -94,7 +94,7 @@ function Newcar3() {
                 width: "1860 mm",
                 length: "5362 mm",
                 color: "White",
-                imgSrc: "./img/ford26.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/ford26.jpg",
                 year: 2019,
                 power: "118 kW",
                 priceWithout: 22300
@@ -112,7 +112,7 @@ function Newcar3() {
                 width: "1790 mm",
                 length: "4120 mm",
                 color: "Red",
-                imgSrc: "./img/kia26.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/kia26.jpg",
                 year: 2022,
                 power: "84 kW",
                 priceWithout: 13666
@@ -130,7 +130,7 @@ function Newcar3() {
                 width: "1748 mm",
                 length: "4553 mm",
                 color: "Red",
-                imgSrc: "./img/honda26.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/honda26.jpg",
                 year: 2021,
                 power: "89 kW",
                 priceWithout: 17363
@@ -148,7 +148,7 @@ function Newcar3() {
                 width: "1840 mm",
                 length: "4555 mm",
                 color: "Black",
-                imgSrc: "./img/mazda26.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/mazda26.jpg",
                 year: 2016,
                 power: "114 kW",
                 priceWithout: 29999
@@ -166,7 +166,7 @@ function Newcar3() {
                 width: "1953 mm",
                 length: "4566 mm",
                 color: "Red",
-                imgSrc: "./img/ferrari29.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/ferrari29.jpg",
                 year: 2016,
                 power: "493 kW",
                 priceWithout: 22800
@@ -184,7 +184,7 @@ function Newcar3() {
                 width: "1780 mm",
                 length: "4490 mm",
                 color: "White",
-                imgSrc: "./img/honda35.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/honda35.jpg",
                 year: 2022,
                 priceWithout: 31000,
                 power: "88 kW"
@@ -202,7 +202,7 @@ function Newcar3() {
                 width: "2095 mm",
                 length: "4976 mm",
                 color: "White",
-                imgSrc: "./img/ford33.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/ford33.jpg",
                 year: 2022,
                 priceWithout: 412500,
                 power: "149 kW"
@@ -220,7 +220,7 @@ function Newcar3() {
                 width: "1985 mm",
                 length: "5115 mm",
                 color: "White",
-                imgSrc: "./img/kia36.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/kia36.jpg",
                 year: 2022,
                 priceWithout: 37950,
                 power: "147 kW"
@@ -238,7 +238,7 @@ function Newcar3() {
                 width: "1870 mm",
                 length: "5280 mm",
                 color: "Silver",
-                imgSrc: "./img/mazda33.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/mazda33.jpg",
                 year: 2022,
                 priceWithout: 39000,
                 power: "140 kW"

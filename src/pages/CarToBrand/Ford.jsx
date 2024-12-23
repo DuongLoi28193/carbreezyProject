@@ -2,8 +2,8 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGasPump, faCogs, faCalendarAlt, faTags, faCar } from '@fortawesome/free-solid-svg-icons';
-import BrandsCarousel from "../CarouselBrands";
-import Footer from "../Footer";
+import BrandsCarousel from process.env.PUBLIC_URL + "/CarouselBrands";
+import Footer from process.env.PUBLIC_URL + "/Footer";
 
 
 const FORDnew = () => {
@@ -16,7 +16,7 @@ const FORDnew = () => {
       seats: "7 seats",
       year: 2021,
       transmission: "10AT",
-      imgSrc: "../img/ford01.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ford01.jpg",
       priceWithout: 37500,
       power: "132 kW"
     },
@@ -28,7 +28,7 @@ const FORDnew = () => {
       seats: 7,
       year: 2021,
       transmission: "10AT",
-      imgSrc: "../img/ford07.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ford07.jpg",
       priceWithout: 36000,
       power: "154 kW"
     },
@@ -40,7 +40,7 @@ const FORDnew = () => {
       seats: "7 seats",
       year: 2021,
       transmission: "10AT",
-      imgSrc: "../img/ford11.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ford11.jpg",
       priceWithout: 34900,
       power: "154 kW"
     },
@@ -52,7 +52,7 @@ const FORDnew = () => {
       seats: 7,
       year: 2020,
       transmission: "10AT",
-      imgSrc: "../img/ford20.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ford20.jpg",
       priceWithout: 20000,
       power: "118 kW"
     },
@@ -64,7 +64,7 @@ const FORDnew = () => {
       seats: 5,
       year: 2023,
       transmission: "7AT",
-      imgSrc: "../img/ford21.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ford21.jpg",
       priceWithout: 31333,
       power: "120 kW"
     },
@@ -81,7 +81,7 @@ const FORDnew = () => {
       width: "1860 mm",
       length: "5362 mm",
       color: "White",
-      imgSrc: "../img/ford26.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ford26.jpg",
       year: 2019,
       priceWithout: 22300,
       power: "118 kW"
@@ -99,7 +99,7 @@ const FORDnew = () => {
       width: "2095 mm",
       length: "4976 mm",
       color: "White",
-      imgSrc: "../img/ford33.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/ford33.jpg",
       year: 2022,
       priceWithout: 412500,
       power: "149 kW"

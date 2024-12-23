@@ -18,7 +18,7 @@ function SUPERCARnew() {
             width: "1920 mm",
             length: "4700 mm",
             color: "Silver",
-            imgSrc: "../img/ferrari01.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ferrari01.jpg",
             year: 2022,
             newPrice: 20999,
             power: "450 kW"
@@ -36,7 +36,7 @@ function SUPERCARnew() {
             width: "1980 mm",
             length: "4700 mm",
             color: "Silver",
-            imgSrc: "../img/ferrari6.jpeg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ferrari6.jpeg",
             year: 2021,
             newPrice: 55500,
             power: "735 kW"
@@ -54,7 +54,7 @@ function SUPERCARnew() {
             width: "1940 mm",
             length: "4570 mm",
             color: "Red",
-            imgSrc: "../img/ferrari11.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ferrari11.jpg",
             year: 2020,
             newPrice: 1890000,
             power: "602 kW"
@@ -72,7 +72,7 @@ function SUPERCARnew() {
             width: "1980 mm",
             length: "4540 mm",
             color: "Blue",
-            imgSrc: "../img/ferrari17.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ferrari17.jpg",
             year: 2019,
             newPrice: 2000000,
             power: "618 kW"
@@ -90,7 +90,7 @@ function SUPERCARnew() {
             width: "1950 mm",
             length: "4650 mm",
             color: "Red",
-            imgSrc: "../img/ferrari25.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ferrari25.jpg",
             year: 2020,
             newPrice: 27600,
             power: "610 kW"
@@ -108,7 +108,7 @@ function SUPERCARnew() {
             width: "1953 mm",
             length: "4566 mm",
             color: "Red",
-            imgSrc: "../img/ferrari30.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ferrari30.jpg",
             year: 2016,
             newPrice: 2329500,
             power: "492 kW"

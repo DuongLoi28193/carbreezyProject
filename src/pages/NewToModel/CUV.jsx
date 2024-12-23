@@ -19,7 +19,7 @@ function CUVnew() {
             width: "1935 mm",
             length: "4630 mm",
             color: "White",
-            imgSrc: "../img/ford21.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford21.jpg",
             year: 2023,
             newPrice: 30000,
             power: "118 kW"
@@ -37,7 +37,7 @@ function CUVnew() {
             width: "1855 mm",
             length: "4584 mm",
             color: "Green",
-            imgSrc: "../img/honda16.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/honda16.jpg",
             year: 2022,
             newPrice: 28500,
             power: "140 kW"
@@ -55,7 +55,7 @@ function CUVnew() {
             width: "1855 mm",
             length: "4584 mm",
             color: "Green",
-            imgSrc: "../img/honda21.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/honda21.jpg",
             year: 2019,
             newPrice: 29300,
             power: "140 kW"
@@ -73,7 +73,7 @@ function CUVnew() {
             width: "1840 mm",
             length: "4555 mm",
             color: "Black",
-            imgSrc: "../img/mazda26.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/mazda26.jpg",
             year: 2016,
             newPrice: 27400,
             power: "115 kW"

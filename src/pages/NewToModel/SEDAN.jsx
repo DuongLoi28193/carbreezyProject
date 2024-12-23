@@ -19,7 +19,7 @@ function SEDANnew() {
             width: "1748 mm",
             length: "4580 mm",
             color: "Green",
-            imgSrc: "../img/honda06.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/honda06.jpg",
             year: 2023,
             newPrice: 17888,
             power: "89 kW"
@@ -37,7 +37,7 @@ function SEDANnew() {
             width: "1802 mm",
             length: "4678 mm",
             color: "White",
-            imgSrc: "../img/honda11.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/honda11.jpg",
             year: 2021,
             newPrice: 22500,
             power: "141 kW"
@@ -55,7 +55,7 @@ function SEDANnew() {
             width: "1800 mm",
             length: "4640 mm",
             color: "Blue",
-            imgSrc: "../img/kia12.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/kia12.jpg",
             year: 2022,
             newPrice: 20000,
             power: "123 kW"
@@ -73,7 +73,7 @@ function SEDANnew() {
             width: "1800 mm",
             length: "4640 mm",
             color: "White",
-            imgSrc: "../img/kia20.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/kia20.jpg",
             year: 2024,
             newPrice: 23350,
             power: "116 kW"
@@ -91,7 +91,7 @@ function SEDANnew() {
             width: "1795 mm",
             length: "4660 mm",
             color: "Red",
-            imgSrc: "../img/mazda02.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/mazda02.jpg",
             year: 2022,
             newPrice: "16885",
             power: "89 kW"
@@ -109,7 +109,7 @@ function SEDANnew() {
             width: "1840 mm",
             length: "4865 mm",
             color: "White",
-            imgSrc: "../img/mazda16.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/mazda16.jpg",
             year: 2019,
             newPrice: 22000,
             power: "118 kW"
@@ -127,7 +127,7 @@ function SEDANnew() {
             width: "1933 mm",
             length: "4694 mm",
             color: "White",
-            imgSrc: "../img/tesla06.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/tesla06.jpg",
             year: 2021,
             newPrice: "40000",
             power: "283 kW"
@@ -146,7 +146,7 @@ function SEDANnew() {
             width: "1933 mm",
             length: "4694 mm",
             color: "Black",
-            imgSrc: "../img/tesla11.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/tesla11.jpg",
             year: 2020,
             newPrice: "48955",
             power: "283 kW"
@@ -164,7 +164,7 @@ function SEDANnew() {
             width: "1964 mm",
             length: "4970 mm",
             color: "Red",
-            imgSrc: "../img/tesla16.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/tesla16.jpg",
             year: 2022,
             newPrice: 75800,
             power: "393 kW"
@@ -182,7 +182,7 @@ function SEDANnew() {
             width: "1990 mm",
             length: "5070 mm",
             color: "White",
-            imgSrc: "../img/tesla22.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/tesla22.jpg",
             year: 2021,
             newPrice: 88000,
             power: "371 kW"
@@ -200,7 +200,7 @@ function SEDANnew() {
             width: "1748 mm",
             length: "4553 mm",
             color: "Red",
-            imgSrc: "../img/honda26.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/honda26.jpg",
             year: 2021,
             newPrice: 18499,
             power: "121 kW"

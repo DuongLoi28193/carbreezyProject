@@ -19,7 +19,7 @@ function SUVnew() {
             width: "1860 mm",
             length: "4892 mm",
             color: "Black",
-            imgSrc: "../img/ford01.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford01.jpg",
             year: 2021,
             newPrice: 36700,
             power: "132 kW"
@@ -37,7 +37,7 @@ function SUVnew() {
             width: "1860 mm",
             length: "4892 mm",
             color: "Blue",
-            imgSrc: "../img/ford07.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford07.jpg",
             year: 2021,
             newPrice: 37000,
             power: "132 kW"
@@ -55,7 +55,7 @@ function SUVnew() {
             width: "1860 mm",
             length: "4892 mm",
             color: "Blue",
-            imgSrc: "../img/ford11.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford11.jpg",
             year: 2021,
             newPrice: 36000,
             power: "132 kW"
@@ -73,7 +73,7 @@ function SUVnew() {
             width: "1935 mm",
             length: "4630 mm",
             color: "White",
-            imgSrc: "../img/ford21.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford21.jpg",
             year: 2023,
             newPrice: 30259,
             power: "118 kW"
@@ -91,7 +91,7 @@ function SUVnew() {
             width: "1800 mm",
             length: "4540 mm",
             color: "White",
-            imgSrc: "../img/kia02.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/kia02.jpg",
             year: 2023,
             newPrice: 27800,
             power: "103 kW"
@@ -109,7 +109,7 @@ function SUVnew() {
             width: "1800 mm",
             length: "4540 mm",
             color: "White",
-            imgSrc: "../img/kia06.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/kia06.jpg",
             year: 2023,
             newPrice: 27300,
             power: "84 kW"
@@ -127,7 +127,7 @@ function SUVnew() {
             width: "1840 mm",
             length: "4550 mm",
             color: "Red",
-            imgSrc: "../img/mazda22.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/mazda22.jpg",
             year: 2022,
             newPrice: 30000,
             power: "121 kW"
@@ -145,7 +145,7 @@ function SUVnew() {
             width: "1790 mm",
             length: "4120 mm",
             color: "Red",
-            imgSrc: "../img/kia26.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/kia26.jpg",
             year: 2022,
             newPrice: 12460,
             power: "85 kW"

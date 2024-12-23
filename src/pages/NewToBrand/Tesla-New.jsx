@@ -19,7 +19,7 @@ const TESLAnew = () => {
       width: "2030 mm",
       length: "5890 mm",
       color: "Iron",
-      imgSrc: "../img/tesla05.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/tesla05.jpg",
       year: 2022,
       priceWithout: 55000,
       power: "746 kW"
@@ -37,7 +37,7 @@ const TESLAnew = () => {
       width: "1933 mm",
       length: "4694 mm",
       color: "White",
-      imgSrc: "../img/tesla06.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/tesla06.jpg",
       year: 2021,
       priceWithout: 40000,
       power: "283 kW"
@@ -56,7 +56,7 @@ const TESLAnew = () => {
       width: "1933 mm",
       length: "4694 mm",
       color: "Black",
-      imgSrc: "../img/tesla14.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/tesla14.jpg",
       year: 2020,
       priceWithout: 51000,
       power: "283 kW"
@@ -74,7 +74,7 @@ const TESLAnew = () => {
       width: "1964 mm",
       length: "4970 mm",
       color: "Red",
-      imgSrc: "../img/tesla16.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/tesla16.jpg",
       year: 2022,
       priceWithout: 75000,
       power: "393 kW"
@@ -92,7 +92,7 @@ const TESLAnew = () => {
       width: "1990 mm",
       length: "5070 mm",
       color: "White",
-      imgSrc: "../img/tesla22.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/tesla22.jpg",
       year: 2021,
       priceWithout: 80000,
       power: "393 kW"

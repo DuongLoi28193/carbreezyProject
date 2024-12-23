@@ -20,7 +20,7 @@ function CUVused() {
                 "width": "1840 mm",
                 "length": "4555 mm",
                 "color": "Black",
-                "imgSrc": "/img/mazda26.jpg",
+                "imgSrc": process.env.PUBLIC_URL + "/img/mazda26.jpg",
                 "year": 2016,
                 "power": "121 kW",
                 "newPrice": 29555,

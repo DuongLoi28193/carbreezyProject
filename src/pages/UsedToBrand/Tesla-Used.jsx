@@ -20,7 +20,7 @@ function TESLAused() {
                 "width": "1933 mm",
                 "length": "4694 mm",
                 "color": "White",
-                "imgSrc": "/img/tesla06.jpg",
+                "imgSrc": process.env.PUBLIC_URL + "/img/tesla06.jpg",
                 "year": 2021,
                 "power": "283 kW",
                 "newPrice": 25000,

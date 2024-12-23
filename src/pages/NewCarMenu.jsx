@@ -17,7 +17,7 @@ const NewCarMenu = () => {
         width: "1860 mm",
         length:"4892 mm",
         color:"Black",
-        imgSrc:"./img/ford01.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ford01.jpg", 
         year: 2021        
     },
     {
@@ -33,7 +33,7 @@ const NewCarMenu = () => {
         width: "1860 mm",
         length: "4892 mm",
         color:"Blue",
-        imgSrc:"./img/ford06.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ford06.jpg", 
         year: 2021
     },
     {
@@ -49,7 +49,7 @@ const NewCarMenu = () => {
         width: "1860 mm",
         length: "4892 mm",
         color:"Blue",
-        imgSrc:"./img/ford11.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ford11.jpg", 
         year: 2021
     },
     {
@@ -65,7 +65,7 @@ const NewCarMenu = () => {
         width: "1860 mm",
         length: "5362 mm",
         color: "Black",
-        imgSrc:"./img/ford16.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ford16.jpg", 
         year: 2020
     },
     {
@@ -81,7 +81,7 @@ const NewCarMenu = () => {
         width: "1935 mm",
         length: "4630 mm",
         color: "White",
-        imgSrc:"./img/ford21.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ford21.jpg", 
         year: 2023
     },
     {
@@ -97,7 +97,7 @@ const NewCarMenu = () => {
         width: "1682 mm",
         length: "3817 mm",
         color: "White",
-        imgSrc:"./img/honda01.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/honda01.jpg", 
         year: 2021
     },
     {
@@ -113,7 +113,7 @@ const NewCarMenu = () => {
         width: "1748 mm",
         length: "4580 mm",
         color: "Green",
-        imgSrc:"./img/honda06.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/honda06.jpg", 
         year: 2023
     },
     {
@@ -129,7 +129,7 @@ const NewCarMenu = () => {
         width: "1802 mm",
         length: "4678 mm",
         color: "White",
-        imgSrc:"./img/honda11.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/honda11.jpg", 
         year: 2021
     },
     {
@@ -145,7 +145,7 @@ const NewCarMenu = () => {
         width: "1855 mm",
         length: "4584 mm",
         color: "Green",
-        imgSrc:"./img/honda16.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/honda16.jpg", 
         year: 2022
     },
     {
@@ -161,7 +161,7 @@ const NewCarMenu = () => {
         width: "1855 mm",
         length: "4584 mm",
         color: "Green",
-        imgSrc:"./img/honda21.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/honda21.jpg", 
         year: 2019
     },
     {
@@ -177,7 +177,7 @@ const NewCarMenu = () => {
         width: "1800 mm",
         length: "4540 mm",
         color: "White",
-        imgSrc:"./img/kia01.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/kia01.jpg", 
         year: 2023
     },
     {
@@ -193,7 +193,7 @@ const NewCarMenu = () => {
         width: "1800 mm",
         length: "4540 mm",
         color: "White",
-        imgSrc:"./img/kia06.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/kia06.jpg", 
         year: 2023
         
     },
@@ -210,7 +210,7 @@ const NewCarMenu = () => {
         width: "1800 mm",
         length: "4640 mm",
         color: "Blue",
-        imgSrc:"./img/kia11.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/kia11.jpg", 
         year: 2022
     },
     {
@@ -226,7 +226,7 @@ const NewCarMenu = () => {
         width: "1800 mm",
         length: "4640 mm",
         color: "White",
-        imgSrc:"./img/kia15.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/kia15.jpg", 
         year: 2024
     },
     {
@@ -242,7 +242,7 @@ const NewCarMenu = () => {
         width: "1805 mm",
         length: "4525 mm",
         color: "",
-        imgSrc:"./img/kia21.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/kia21.jpg", 
         year: 2022
     },
     {
@@ -258,7 +258,7 @@ const NewCarMenu = () => {
         width: "1795 mm",
         length: "4660 mm",
         color: "Red",
-        imgSrc:"./img/mazda01.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/mazda01.jpg", 
         year: 2022
     },
     {
@@ -274,7 +274,7 @@ const NewCarMenu = () => {
         width: "1795 mm",
         length: "4465 mm",
         color: "White",
-        imgSrc:"./img/mazda06.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/mazda06.jpg", 
         year: 2020 
     },
     {
@@ -290,7 +290,7 @@ const NewCarMenu = () => {
         width: "1795 mm",
         length: "4580 mm",
         color: "White",
-        imgSrc:"./img/mazda11.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/mazda11.jpg", 
         year: 2019
     },
     {
@@ -306,7 +306,7 @@ const NewCarMenu = () => {
         width: "1840 mm",
         length: "4865 mm",
         color: "White",
-        imgSrc:"./img/mazda16.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/mazda16.jpg", 
         year: 2019
     },
     {
@@ -322,7 +322,7 @@ const NewCarMenu = () => {
         width: "1840 mm",
         length: "4550 mm",
         color: "Red",
-        imgSrc:"./img/mazda21.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/mazda21.jpg", 
         year: 2022
     },
     {
@@ -338,7 +338,7 @@ const NewCarMenu = () => {
         width: "2030 mm",
         length: "5890 mm",
         color: "Iron",
-        imgSrc:"./img/tesla01.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/tesla01.jpg", 
         year: 2022
     },
     {
@@ -354,7 +354,7 @@ const NewCarMenu = () => {
         width: "1933 mm",
         length: "4694 mm",
         color: "White",
-        imgSrc:"./img/tesla06.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/tesla06.jpg", 
         year: 2021
     },
     
@@ -371,7 +371,7 @@ const NewCarMenu = () => {
         width: "1933 mm",
         length: "4694 mm",
         color: "Black",
-        imgSrc:"./img/tesla11.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/tesla11.jpg", 
         year: 2020
     },
     {
@@ -387,7 +387,7 @@ const NewCarMenu = () => {
         width: "1964 mm",
         length: "4970 mm",
         color: "Red",
-        imgSrc:"./img/tesla16.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/tesla16.jpg", 
         year: 2022
     },
     {
@@ -403,7 +403,7 @@ const NewCarMenu = () => {
         width: "1990 mm",
         length: "5070 mm",
         color: "White",
-        imgSrc:"./img/tesla21.jpg",  
+        imgSrc: process.env.PUBLIC_URL + "/img/tesla21.jpg",  
         year: 2021
     },
     {
@@ -419,7 +419,7 @@ const NewCarMenu = () => {
         width: "1920 mm",
         length: "4700 mm",
         color: "Silver",
-        imgSrc:"./img/ferrari01.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ferrari01.jpg", 
         year: 2022
     },
     {
@@ -435,7 +435,7 @@ const NewCarMenu = () => {
         width: "1980 mm",
         length: "4700 mm",
         color: "Silver",
-        imgSrc:"./img/ferrari06.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ferrari06.jpg", 
         year: 2021
     },
     {
@@ -451,7 +451,7 @@ const NewCarMenu = () => {
         width: "1940 mm",
         length: "4570 mm",
         color: "Red",
-        imgSrc:"./img/ferrari11.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ferrari11.jpg", 
         year: 2020
     },
     {
@@ -467,7 +467,7 @@ const NewCarMenu = () => {
         width: "1980 mm",
         length: "4540 mm",
         color: "Blue",
-        imgSrc:"./img/ferrari16.jpg",
+        imgSrc: process.env.PUBLIC_URL + "/img/ferrari16.jpg",
         year: 2019
     },
     {
@@ -483,7 +483,7 @@ const NewCarMenu = () => {
         width: "1950 mm",
         length: "4650 mm",
         color: "Red",
-        imgSrc:"./img/ferrari121.jpg", 
+        imgSrc: process.env.PUBLIC_URL + "/img/ferrari121.jpg", 
         year: 2020
     },
     {
@@ -499,7 +499,7 @@ const NewCarMenu = () => {
         width: "1860 mm",
         length: "5362 mm",
         color: "White",
-       imgSrc:"./img/ford26.jpg", 
+       imgSrc: process.env.PUBLIC_URL + "/img/ford26.jpg", 
         year: 2019
     },
     {
@@ -515,7 +515,7 @@ const NewCarMenu = () => {
         width: "1790 mm",
         length: "4120 mm",
         color: "Red",
-       imgSrc:"./img/kia26.jpg", 
+       imgSrc: process.env.PUBLIC_URL + "/img/kia26.jpg", 
         year: 2022
     },
     {
@@ -531,7 +531,7 @@ const NewCarMenu = () => {
         width: "1748 mm",
         length: "4553 mm",
         color: "Red",
-       imgSrc:"./img/honda26.jpg", 
+       imgSrc: process.env.PUBLIC_URL + "/img/honda26.jpg", 
         year: 2021
     },
     {
@@ -547,7 +547,7 @@ const NewCarMenu = () => {
         width: "1840 mm",
         length: "4555 mm",
         color: "Black",
-       imgSrc:"./img/mazda26.jpg", 
+       imgSrc: process.env.PUBLIC_URL + "/img/mazda26.jpg", 
         year: 2016
     },
     {
@@ -563,7 +563,7 @@ const NewCarMenu = () => {
         width: "1953 mm",
         length: "4566 mm",
         color: "Red",
-       imgSrc:"./img/ferrari26.jpg", 
+       imgSrc: process.env.PUBLIC_URL + "/img/ferrari26.jpg", 
         year: 2016
     }
 ];

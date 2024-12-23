@@ -19,7 +19,7 @@ function PICKUPnew() {
             width: "1870 mm",
             length: "5280 mm",
             color: "Silver",
-            imgSrc: "../img/mazda33.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/mazda33.jpg",
             year: 2022,
             newPrice: 40999,
             power: "140 kW"
@@ -37,7 +37,7 @@ function PICKUPnew() {
             width: "1860 mm",
             length: "5362 mm",
             color: "White",
-            imgSrc: "../img/ford26.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford26.jpg",
             year: 2019,
             newPrice: 22350,
             power: "118 kW"
@@ -55,7 +55,7 @@ function PICKUPnew() {
             width: "2030 mm",
             length: "5890 mm",
             color: "Iron",
-            imgSrc: "../img/tesla05.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/tesla05.jpg",
             year: 2022,
             newPrice: 58800,
             power: "500 kW"
@@ -73,7 +73,7 @@ function PICKUPnew() {
             width: "1860 mm",
             length: "5362 mm",
             color: "Black",
-            imgSrc: "../img/ford20.jpg",
+            imgSrc: process.env.PUBLIC_URL + "/img/ford20.jpg",
             year: 2020,
             newPrice: 22000,
             power: "118 kW"

@@ -2,8 +2,8 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGasPump, faCogs, faCalendarAlt, faTags, faCar } from '@fortawesome/free-solid-svg-icons';
-import BrandsCarousel from "../CarouselBrands";
-import Footer from "../Footer";
+import BrandsCarousel from process.env.PUBLIC_URL + "/CarouselBrands";
+import Footer from process.env.PUBLIC_URL + "/Footer";
 
 
 const MAZDAnew = () => {
@@ -21,7 +21,7 @@ const MAZDAnew = () => {
       width: "1795 mm",
       length: "4660 mm",
       color: "Red",
-      imgSrc: "../img/mazda02.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/mazda02.jpg",
       year: 2022,
       priceWithout: 18300,
       power: "88 kW"
@@ -39,7 +39,7 @@ const MAZDAnew = () => {
       width: "1795 mm",
       length: "4465 mm",
       color: "White",
-      imgSrc: "../img/mazda06.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/mazda06.jpg",
       year: 2020,
       priceWithout: 22200,
       power: "88 kW"
@@ -57,7 +57,7 @@ const MAZDAnew = () => {
       width: "1795 mm",
       length: "4580 mm",
       color: "White",
-      imgSrc: "../img/mazda11.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/mazda11.jpg",
       year: 2019,
       priceWithout: 17500,
       power: "88 kW",
@@ -75,7 +75,7 @@ const MAZDAnew = () => {
       width: "1840 mm",
       length: "4865 mm",
       color: "White",
-      imgSrc: "../img/mazda16.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/mazda16.jpg",
       year: 2019,
       priceWithout: 20800,
       power: "114 kW"
@@ -93,7 +93,7 @@ const MAZDAnew = () => {
       width: "1840 mm",
       length: "4550 mm",
       color: "Red",
-      imgSrc: "../img/mazda22.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/mazda22.jpg",
       year: 2022,
       priceWithout: 30500,
       power: "121 kW"
@@ -111,7 +111,7 @@ const MAZDAnew = () => {
       width: "1840 mm",
       length: "4555 mm",
       color: "Black",
-      imgSrc: "../img/mazda26.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/mazda26.jpg",
       year: 2016,
       priceWithout: 29999,
       power: "114 kW"

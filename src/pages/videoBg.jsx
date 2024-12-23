@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const VideoBackground = () => {
     const videoSources = [
-        "../img/video-bground-2.mp4",
-        "../img/video-bground-3.mp4"
+        process.env.PUBLIC_URL + "/img/video-bground-2.mp4",
+        process.env.PUBLIC_URL + "/img/video-bground-3.mp4"
     ];
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 

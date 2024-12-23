@@ -17,7 +17,7 @@ const carData = [
     width: "1860 mm",
     length: "4892 mm",
     color: "Black",
-    imgSrc: ["../img/ford01.jpg"],
+    imgSrc: [process.env.PUBLIC_URL + "/img/ford01.jpg"],
     year: 2021,
     power: "158 kW",
     priceWithout: 35000
@@ -35,7 +35,7 @@ const carData = [
     width: "1748 mm",
     length: "4580 mm",
     color: "Green",
-    imgSrc: ["./img/honda06.jpg"],
+    imgSrc: [process.env.PUBLIC_URL + "/img/honda06.jpg"],
     year: 2023,
     power: "90 kW",
     priceWithout: 18500
@@ -53,7 +53,7 @@ const carData = [
     width: "1800 mm",
     length: "4540 mm",
     color: "White",
-    imgSrc: ["./img/kia02.jpg"],
+    imgSrc: [process.env.PUBLIC_URL + "/img/kia02.jpg"],
     year: 2023,
     power: "104 kW",
     priceWithout: 28099
@@ -71,7 +71,7 @@ const carData = [
     width: "1795 mm",
     length: "4660 mm",
     color: "Red",
-    imgSrc: ["./img/mazda02.jpg"],
+    imgSrc: [process.env.PUBLIC_URL + "/img/mazda02.jpg"],
     year: 2022,
     power: "82 kW",
     priceWithout: 18000
@@ -89,7 +89,7 @@ const carData = [
     width: "2030 mm",
     length: "5890 mm",
     color: "Iron",
-    imgSrc: ["./img/tesla05.jpg"],
+    imgSrc: [process.env.PUBLIC_URL + "/img/tesla05.jpg"],
     year: 2022,
     power: "596 kW",
     priceWithout: 55000
@@ -107,7 +107,7 @@ const carData = [
     width: "1920 mm",
     length: "4700 mm",
     color: "Silver",
-    imgSrc: ["./img/ferrari01.jpg"],
+    imgSrc: [process.env.PUBLIC_URL + "/img/ferrari01.jpg"],
     year: 2022,
     power: "450 kW",
     priceWithout: 20999

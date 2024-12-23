@@ -20,7 +20,7 @@ function PICKUPused() {
                 "width": "1860 mm",
                 "length": "5362 mm",
                 "color": "Black",
-                "imgSrc": "/img/ford20.jpg",
+                "imgSrc": process.env.PUBLIC_URL + "/img/ford20.jpg",
                 "year": 2020,
                 "power": "118 kW",
                 "newPrice": 15512,
