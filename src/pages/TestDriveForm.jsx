@@ -10,7 +10,6 @@ function TestDriveForm() {
 
     const [errors, setErrors] = useState({});
 
-    // Hàm xử lý thay đổi dữ liệu nhập
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -19,7 +18,6 @@ function TestDriveForm() {
         });
     };
 
-    // Hàm kiểm tra lỗi
     const validateForm = () => {
         const newErrors = {};
 
@@ -45,12 +43,10 @@ function TestDriveForm() {
         return Object.keys(newErrors).length === 0;
     };
 
-    // Hàm xử lý khi submit form
     const handleSubmit = (e) => {
         e.preventDefault();
         if (validateForm()) {
             alert("Form submitted successfully!");
-            // Reset form sau khi gửi thành công
             setFormData({
                 appointmentDate: "",
                 time: "",

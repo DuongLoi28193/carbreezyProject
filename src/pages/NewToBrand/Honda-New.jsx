@@ -20,7 +20,7 @@ const HONDAnew = () => {
       width: "1682 mm",
       length: "3817 mm",
       color: "White",
-      imgSrc: process.env.PUBLIC_URL + "../img/honda01.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/honda01.jpg",
       year: 2021,
       priceWithout: 14600,
       power: "66 kW"
@@ -38,7 +38,7 @@ const HONDAnew = () => {
       width: "1748 mm",
       length: "4580 mm",
       color: "Green",
-      imgSrc: process.env.PUBLIC_URL + "../img/honda06.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/honda06.jpg",
       year: 2023,
       priceWithout: 19000,
       power: "89 kW"
@@ -56,7 +56,7 @@ const HONDAnew = () => {
       width: "1802 mm",
       length: "4678 mm",
       color: "White",
-      imgSrc: process.env.PUBLIC_URL + "../img/honda11.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/honda11.jpg",
       year: 2021,
       priceWithout: 23000,
       power: "104 kW"
@@ -74,7 +74,7 @@ const HONDAnew = () => {
       width: "1855 mm",
       length: "4584 mm",
       color: "Green",
-      imgSrc: process.env.PUBLIC_URL + "../img/honda16.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/honda16.jpg",
       year: 2022,
       priceWithout: 28800,
       power: "140 kW"
@@ -92,7 +92,7 @@ const HONDAnew = () => {
       width: "1855 mm",
       length: "4584 mm",
       color: "Green",
-      imgSrc: process.env.PUBLIC_URL + "../img/honda21.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/honda21.jpg",
       year: 2019,
       priceWithout: 29999,
       power: "140 kW"
@@ -110,7 +110,7 @@ const HONDAnew = () => {
       width: "1748 mm",
       length: "4553 mm",
       color: "Red",
-      imgSrc: process.env.PUBLIC_URL + "../img/honda26.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/honda26.jpg",
       year: 2021,
       priceWithout: 17363,
       power: "89 kW"
@@ -128,7 +128,7 @@ const HONDAnew = () => {
       width: "1780 mm",
       length: "4490 mm",
       color: "White",
-      imgSrc: process.env.PUBLIC_URL + "../img/honda35.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/img/honda35.jpg",
       year: 2022,
       priceWithout: 31000,
       power: "88 kW"
