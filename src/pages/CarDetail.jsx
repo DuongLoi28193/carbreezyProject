@@ -86,7 +86,7 @@ function CarDetail({ data }) {
                                 <div key={index} className="box-extra_image-car">
                                     <img
                                         className="img__car small"
-                                        src={src}
+                                        src={`${process.env.PUBLIC_URL}${src}`}
                                         alt={`Xe ${index + 1}`}
                                         onClick={() => handleImageClick(src)}
                                     />
