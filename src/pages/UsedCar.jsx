@@ -252,7 +252,7 @@ function UsedCar() {
         const nav = useNavigate();
         const [searchTerm, setSearchTerm] = useState("");
 
-        const filteredCars = cars.filter(car => car.name.toLowerCase().includes(searchTerm.toLowerCase()));
+        const filteredCars = cars.filter((car) => car.name.toLowerCase().includes(searchTerm.toLowerCase()));
         
     return (
         <div>
@@ -327,9 +327,13 @@ function UsedCar() {
 
             {/* show usedCar - All */}
             <div className="car-menu" >
-                <div className="car-grid">
+            <div className="car-grid">
                     {filteredCars.map((car) => (
-                        <div onClick={() => nav(`/used-car/${car.id}`)} className="car-item_menu" key={car.id}>
+                        <div
+                            onClick={() => nav(`/used-car/${car.id}`)}
+                            className="car-item_menu"
+                            key={car.id}
+                        >
                             <img
                                 src={`${process.env.PUBLIC_URL}${car.imgSrc}`}
                                 alt={car.name}
@@ -337,49 +341,19 @@ function UsedCar() {
                             />
                             <div className="container_carMenu-infor ">
                                 <p className="nameCar_menu">{car.name}</p>
-                                <div className='box-priceCar_menu' style={{ minHeight: "23%" }}>
-                                    <span className="newPriceCar_menu">
-                                        {car.newPrice}$
+                                <div className="box-priceCar_menu">
+                                    <span className="newPriceCar_menu">{car.newPrice}$</span>
+                                    <span
+                                        style={{
+                                            fontSize: "22px",
+                                            color: "#555",
+                                            fontWeight: "400",
+                                            textDecoration: "line-through",
+                                        }}
+                                        className="priceCar_menu"
+                                    >
+                                        {car.price}$ (Price with DPH)
                                     </span>
-                                    <span style={{ fontSize: "22px", color: "#555", fontWeight: "400" }} className="priceCar_menu">
-                                        <div className='box-extra_icon-price' style={{ textDecoration: "line-through" }}>
-                                            <FontAwesomeIcon className='iconTags' icon={faTags} />{car.price}$ (Price with DPH)
-                                        </div>
-                                    </span>
-                                </div>
-                                <div className="carMenu-infor-detail">
-                                    <div className="carMenu-infor-item">
-                                        <p style={{ paddingLeft: "20px", paddingTop: "5px", paddingBottom: "5px" }}>
-                                            <strong><FontAwesomeIcon icon={faCalendarAlt} className="icon-menu" /></strong> <span style={{ paddingLeft: "3px" }}>{car.year}</span>
-                                        </p>
-                                    </div>
-                                    <div className="carMenu-infor-item">
-                                        <p style={{ paddingLeft: "10px", paddingRight: "10px", paddingTop: "5px", paddingBottom: "5px" }}>
-                                            <strong><FontAwesomeIcon icon={faCar} className="icon-menu" /></strong>  <span style={{ paddingLeft: "3px" }}>{car.seats}</span>
-                                        </p>
-                                    </div>
-                                    <div className='boxColor-item_temp'>
-                                        <div style={{ width: "100px" }} className='boxColor-item'>
-                                            <div style={{
-                                                textAlign: "center", display: "flex", justifyContent: "center", gap: "0px", padding: "0 8px", marginTop: "2px"
-                                            }}>
-                                                < svg style={{ width: "20px", height: "20px", marginTop: "5px", color: "hsl(220,13%,50%)" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12">
-                                                    <path fillRule="evenodd" d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z" clipRule="evenodd" />
-                                                </svg>
-                                                <span style={{ textAlign: "center", fontFamily: "Poppins", marginTop: "5px", color: "hsl(220,13%, 50%)", marginBottom: "0", marginLeft: "3px", fontWeight: "500" }}>{car.power}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="carMenu-infor-item">
-                                        <p style={{ paddingLeft: "15px", paddingRight: "10px", paddingTop: "5px", paddingBottom: "5px" }}>
-                                            <strong><FontAwesomeIcon icon={faGasPump} style={{ paddingRight: "4px" }} className="icon-menu" /></strong> {car.fuel}
-                                        </p>
-                                    </div>
-                                    <div className="carMenu-infor-item">
-                                        <p style={{ paddingLeft: "15px", marginTop: "0px" }}>
-                                            <strong><FontAwesomeIcon icon={faCogs} style={{ paddingRight: "3px" }} className="icon-menu" /></strong> <span className="temp_icon">{car.transmission}</span>
-                                        </p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
