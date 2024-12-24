@@ -36,12 +36,12 @@ const BrandsCarousel = () => {
     };
 
     const brands = [
-        { src: "../img/Hondalogo.jpg", alt: "Honda", path: "/honda" },
-        { src: "../img/KIAlogo.jpg", alt: "KIA", path: "/kia" },
-        { src: "../img/Teslalogo.jpg", alt: "Tesla", path: "/tesla" },
-        { src: "../img/ferrarilogo.jpg", alt: "Ferrari", path: "/ferrari", style: { width: "150px" } },
-        { src: "../img/fordlogo.jpg", alt: "Ford", path: "/ford" },
-        { src: "../img/mazdaLogo.png", alt: "Mazda", path: "/mazda" },
+        { src: process.env.PUBLIC_URL + "/img/Hondalogo.jpg", alt: "Honda", path: "/honda" },
+        { src: process.env.PUBLIC_URL + "/img/KIAlogo.jpg", alt: "KIA", path: "/kia" },
+        { src: process.env.PUBLIC_URL + "/img/Teslalogo.jpg", alt: "Tesla", path: "/tesla" },
+        { src: process.env.PUBLIC_URL + "/img/ferrarilogo.jpg", alt: "Ferrari", path: "/ferrari", style: { width: "150px" } },
+        { src: process.env.PUBLIC_URL + "/img/fordlogo.jpg", alt: "Ford", path: "/ford" },
+        { src: process.env.PUBLIC_URL + "/img/mazdaLogo.png", alt: "Mazda", path: "/mazda" },
     ];
 
     return (
