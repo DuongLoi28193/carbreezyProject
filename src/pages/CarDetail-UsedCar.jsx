@@ -11,7 +11,7 @@ function CarDetail({ dataUsed }) {
 
     const index = dataUsed.findIndex((item) => item.id === ID);
     const dataItem = dataUsed[index];
-    const imgSrcs = car.imgSrc.map(src => `${process.env.PUBLIC_URL}${src}`);
+
     useEffect(() => {
         if (dataItem && Array.isArray(dataItem.imgSrc) && dataItem.imgSrc.length > 0) {
             setSelectedImage(dataItem.imgSrc[0]);
@@ -80,14 +80,14 @@ function CarDetail({ dataUsed }) {
                         <div className="box_image-car">
                             {/* Picture main */}
                             <div>
-                                <img className="img__car" src={process.env.PUBLIC_URL + '/images/image-name.jpg'} alt="Ảnh xe lớn" />
+                                <img className="img__car" src={`${process.env.PUBLIC_URL}${selectedImage}`} alt="Ảnh xe lớn" />
                             </div>
                             {/* Picture items */}
-                            {dataItem.imgSrc.slice(0).map((src, index) => (
+                            {dataItem.imgSrc.map((src, index) => (
                                 <div key={index} className="box-extra_image-car">
                                     <img
                                         className="img__car small"
-                                        src={src}
+                                        src={`${process.env.PUBLIC_URL}${src}`}
                                         alt={`Xe ${index + 1}`}
                                         onClick={() => handleImageClick(src)}
                                     />
