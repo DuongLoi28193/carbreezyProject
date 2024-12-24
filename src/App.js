@@ -75,7 +75,7 @@ function App() {
         <label htmlFor="check-menu" className='overlay'></label>
 
         <div className='logo_container'>
-          <Link to="/"><img className='logo' src="/img/Group_193-removebg-preview.png" alt="" /></Link>
+          <Link to="/"><img className='logo' src={process.env.PUBLIC_URL + "/img/Group_193-removebg-preview.png"} alt="" /></Link>
         </div>
 
         <div className='nav-left'>
@@ -86,12 +86,12 @@ function App() {
               <div className="dropdown">
                 <button className="dropdown-toggle">Brands</button>
                 <ul className="dropdown-menu">
-                  <li><a href="/honda" className="dropdown-item">Honda</a></li>
-                  <li><a href="/kia" className="dropdown-item">KIA</a></li>
-                  <li><a href="/ford" className="dropdown-item">Ford</a></li>
-                  <li><a href="/tesla" className="dropdown-item">Tesla</a></li>
-                  <li><a href="/ferrari" className="dropdown-item">Ferrari</a></li>
-                  <li><a href="/mazda" className="dropdown-item">Mazda</a></li>
+                  <li><Link href="/honda" className="dropdown-item">Honda</Link></li>
+                  <li><Link href="/kia" className="dropdown-item">KIA</Link></li>
+                  <li><Link href="/ford" className="dropdown-item">Ford</Link></li>
+                  <li><Link href="/tesla" className="dropdown-item">Tesla</Link></li>
+                  <li><Link href="/ferrari" className="dropdown-item">Ferrari</Link></li>
+                  <li><Link href="/mazda" className="dropdown-item">Mazda</Link></li>
                 </ul>
               </div>
             </div>
