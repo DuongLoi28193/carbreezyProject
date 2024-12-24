@@ -258,7 +258,7 @@ function Newcar() {
                 width: "1800 mm",
                 length: "4640 mm",
                 color: "White",
-                imgSrc: "/img/kia12.jpg",
+                imgSrc: process.env.PUBLIC_URL + "/img/kia12.jpg",
                 year: 2024,
                 power: "115 kW",
                 priceWithout: 23000
