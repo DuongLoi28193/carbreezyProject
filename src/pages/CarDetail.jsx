@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -80,7 +79,7 @@ function CarDetail({ data }) {
                         <div className="box_image-car">
                             {/* Picture main */}
                             <div>
-                                <img className="img__car" src={selectedImage} alt="Ảnh xe lớn" />
+                                <img className="img__car" src={`${process.env.PUBLIC_URL}${selectedImage}`} alt="Ảnh xe lớn" />
                             </div>
                             {/* Picture items */}
                             {dataItem.imgSrc.slice(0).map((src, index) => (
