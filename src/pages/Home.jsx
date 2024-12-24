@@ -20,7 +20,7 @@ function Home() {
                     <p className='p-1'>WELCOME TO <span className='color'>CARBREEZY</span></p>
                     <p className='p-2'><span className='color luxury-text'>Luxury</span> Experience On Every Journey</p>
                     <button className='btn-greeting'>
-                        <img className='search-logo' src="../img/Search-logo.png" alt="Search Logo" />
+                        <img className='search-logo' src={process.env.PUBLIC_URL+"/img/Search-logo.png"} alt="Search Logo" />
                         <span className='content-search'>See more</span>
                     </button>
                 </div>
