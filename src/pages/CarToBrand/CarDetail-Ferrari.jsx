@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCar, faGasPump, faCogs, faBolt, faPhone, faEnvelope, faArrowLeft, faCalendarAlt, faShareAlt, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import Footer from "../Footer";
+import Footer from '../Footer';
 
 function CarDetailFERRARI({ data }) {
     const { ID } = useParams();
@@ -250,12 +250,11 @@ function CarDetailFERRARI({ data }) {
                     </div>
 
                 ) : (
-                    <p>Không có ảnh hoặc dữ liệu không hợp lệ</p>  // Thông báo nếu không có ảnh
+                    <p>Không có ảnh hoặc dữ liệu không hợp lệ</p>  
                 )
                 }
-                <div>
-                    <Footer />
-
+                <div>                    
+                    <Footer/>
                 </div>
             </main >
         </div >

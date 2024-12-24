@@ -2,8 +2,8 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGasPump, faCogs, faCalendarAlt, faTags, faCar } from '@fortawesome/free-solid-svg-icons';
-import BrandsCarousel from "./CarouselBrands";
-import Footer from "./Footer";
+import BrandsCarousel from "../CarouselBrands";
+import Footer from "../Footer";
 
 
 const MAZDAnew = () => {
