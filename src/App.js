@@ -86,12 +86,12 @@ function App() {
               <div className="dropdown">
                 <button className="dropdown-toggle">Brands</button>
                 <ul className="dropdown-menu">
-                  <li><Link href="/honda" className="dropdown-item">Honda</Link></li>
-                  <li><Link href="/kia" className="dropdown-item">KIA</Link></li>
-                  <li><Link href="/ford" className="dropdown-item">Ford</Link></li>
-                  <li><Link href="/tesla" className="dropdown-item">Tesla</Link></li>
-                  <li><Link href="/ferrari" className="dropdown-item">Ferrari</Link></li>
-                  <li><Link href="/mazda" className="dropdown-item">Mazda</Link></li>
+                  <li><Link to="/honda" className="dropdown-item">Honda</Link></li>
+                  <li><Link to="/kia" className="dropdown-item">KIA</Link></li>
+                  <li><Link to="/ford" className="dropdown-item">Ford</Link></li>
+                  <li><Link to="/tesla" className="dropdown-item">Tesla</Link></li>
+                  <li><Link to="/ferrari" className="dropdown-item">Ferrari</Link></li>
+                  <li><Link to="/mazda" className="dropdown-item">Mazda</Link></li>
                 </ul>
               </div>
             </div>
