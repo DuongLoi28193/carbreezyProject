@@ -80,14 +80,14 @@ function CarDetailHONDA({ data }) {
                         <div className="box_image-car">
                             {/* Picture main */}
                             <div>
-                                <img className="img__car" src={selectedImage} alt="Ảnh xe lớn" />
+                                <img className="img__car" src={`${process.env.PUBLIC_URL}${selectedImage}`} alt="Ảnh xe lớn" />
                             </div>
                             {/* Picture items */}
                             {dataItem.imgSrc.slice(0).map((src, index) => (
                                 <div key={index} className="box-extra_image-car">
                                     <img
                                         className="img__car small"
-                                        src={src}
+                                        src={`${process.env.PUBLIC_URL}${src}`}
                                         alt={`Xe ${index + 1}`}
                                         onClick={() => handleImageClick(src)}
                                     />
