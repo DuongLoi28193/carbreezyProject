@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/carbreezyProject/static/css/main.1025328e.css",
-    "main.js": "/carbreezyProject/static/js/main.f25f1801.js",
+    "main.css": "/carbreezyProject/static/css/main.ec684df4.css",
+    "main.js": "/carbreezyProject/static/js/main.27815bd8.js",
     "static/js/488.da0a66d9.chunk.js": "/carbreezyProject/static/js/488.da0a66d9.chunk.js",
-    "static/media/car-offers-6.jpeg": "/carbreezyProject/static/media/car-offers-6.4260a99defbba01045a3.jpeg",
-    "static/media/car-offers-4.jpg": "/carbreezyProject/static/media/car-offers-4.51efbb9b11a93094f98c.jpg",
+    "static/media/ferrari01.jpg": "/carbreezyProject/static/media/ferrari01.4a1bbedba4acb7fedf9a.jpg",
+    "static/media/ford04.jpg": "/carbreezyProject/static/media/ford04.3dc213aea6d1dcac6c74.jpg",
+    "static/media/honda01.jpg": "/carbreezyProject/static/media/honda01.54fbb308e23983866adb.jpg",
+    "static/media/ford21.jpg": "/carbreezyProject/static/media/ford21.8b773fde181ac4c41c33.jpg",
+    "static/media/mazda25.jpg": "/carbreezyProject/static/media/mazda25.4ddcc702e39b67c32dfb.jpg",
     "static/media/contactusbanner.jpg": "/carbreezyProject/static/media/contactusbanner.23139b4158803a622eb6.jpg",
     "static/media/bgOffers-2.jpeg": "/carbreezyProject/static/media/bgOffers-2.5b28872766e93a95bc83.jpeg",
-    "static/media/car-offers-3.jpg": "/carbreezyProject/static/media/car-offers-3.c2b32f1e5ccf650ff97a.jpg",
     "static/media/background-numbers.jpg": "/carbreezyProject/static/media/background-numbers.81c87cce06e534473b63.jpg",
     "static/media/car-offers-5.jpg": "/carbreezyProject/static/media/car-offers-5.f1f592e98090213165ce.jpg",
-    "static/media/car-offers-9.jpg": "/carbreezyProject/static/media/car-offers-9.94c33ea082b71dda357a.jpg",
+    "static/media/kia26.jpg": "/carbreezyProject/static/media/kia26.c651984206c6795f86b1.jpg",
     "static/media/slick.svg": "/carbreezyProject/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/carbreezyProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/carbreezyProject/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/carbreezyProject/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/carbreezyProject/index.html",
-    "main.1025328e.css.map": "/carbreezyProject/static/css/main.1025328e.css.map",
-    "main.f25f1801.js.map": "/carbreezyProject/static/js/main.f25f1801.js.map",
+    "main.ec684df4.css.map": "/carbreezyProject/static/css/main.ec684df4.css.map",
+    "main.27815bd8.js.map": "/carbreezyProject/static/js/main.27815bd8.js.map",
     "488.da0a66d9.chunk.js.map": "/carbreezyProject/static/js/488.da0a66d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1025328e.css",
-    "static/js/main.f25f1801.js"
+    "static/css/main.ec684df4.css",
+    "static/js/main.27815bd8.js"
   ]
 }
