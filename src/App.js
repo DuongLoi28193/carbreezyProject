@@ -75,7 +75,7 @@ function App() {
         <label htmlFor="check-menu" className='overlay'></label>
 
         <div className='logo_container'>
-          <Link to="/"><img className='logo' src={process.env.PUBLIC_URL + "/img/Group_193-removebg-preview.png"} alt="" /></Link>
+          <Link to="/"><img className='logo' src={process.env.PUBLIC_URL + "/img/mainlogo.jpg"} alt="" /></Link>
         </div>
 
         <div className='nav-left'>

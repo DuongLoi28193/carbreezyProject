@@ -74,7 +74,7 @@ function Footer() {
 
             <div className="container__footer">
                 <div className="box__social-footer">
-                    <img className="logo-img__footer" src="/img/logo.jpg" alt="" />
+                    <img className="logo-img__footer" src={process.env.PUBLIC_URL+"/img/mainlogo.jpg"} alt="" />
                     <p className="slogan__footer">CarBreezy – Vietnam's top used car platform, offering a fast, transparent, and trusted experience.</p>
                     <div className='box-icon__footer'>
                         <FontAwesomeIcon className='icon__footer' icon={['fab', 'facebook']} />
