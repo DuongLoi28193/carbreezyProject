@@ -4796,6 +4796,7 @@ main {
 }
 
 .logo-img__footer {
+  margin: 20px 0;
   width: 150px;
   display: flex;
   justify-content: center;
