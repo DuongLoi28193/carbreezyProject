@@ -132,14 +132,14 @@ function Offers({ dataUsed }) {
 
                 <div className="container_insurances">
                     <div className="insurance-item">
-                        <img style={{ marginTop: "-15px" }} className="img-insurance" src="../img/insurance-logo-1.jpg" alt="" />
+                        <img style={{ marginTop: "-15px" }} className="img-insurance" src="/img/insurance-logo-1.jpg" alt="" />
                         <p className="category-service">Engine Hydrolock</p>
                         <p className="desc-detail_insurance">MBI insured customers: <span className="hl-word">$560</span></p>
                         <p className="desc-detail_insurance">MBI uninsured customers: <span className="hl-word">$1050</span></p>
                         <p className="desc-detail_insurance">Uninsured: <span className="hl-word">$1500</span></p>
                     </div>
                     <div className="insurance-item">
-                        <img className="img-insurance" src="../img/insurance-logo-2.jpg" alt="" />
+                        <img className="img-insurance" src="/img/insurance-logo-2.jpg" alt="" />
                         <p className="category-service">Extended Warranty</p>
                         <div className="infor-insurance">
                             <p className="desc-detail_insurance">✔️<span className="hl-word">1-year</span> renewal package: receive a <span className="hl-word">$100</span> gas voucher immediately</p>
@@ -150,7 +150,7 @@ function Offers({ dataUsed }) {
 
                 <div className="container_insurances">
                     <div className="insurance-item">
-                        <img style={{ width: "250px", height: "250px", marginTop: "10px" }} className="img-insurance" src="../img/insurance-logo-3.jpg" alt="" />
+                        <img style={{ width: "250px", height: "250px", marginTop: "10px" }} className="img-insurance" src="/img/insurance-logo-3.jpg" alt="" />
                         <div className="infor-insurance">
                             <p style={{ marginTop: "-40px" }} className="category-service">Special Tires</p>
                             <p className="desc-detail_insurance"><span className="hl-word">2 tires:</span> Free replacement labor</p>
@@ -158,7 +158,7 @@ function Offers({ dataUsed }) {
                         </div>
                     </div>
                     <div className="insurance-item">
-                        <img style={{ width: "250px", height: "250px" }} className="img-insurance" src="../img/insurance-logo-4.jpg" alt="" />
+                        <img style={{ width: "250px", height: "250px" }} className="img-insurance" src="/img/insurance-logo-4.jpg" alt="" />
                         <div className="infor-insurance">
                             <p style={{ marginTop: "-40px" }} className="category-service">Trusted Partners</p>
                             <p className="desc-detail_insurance">Comprehensive auto insurance with affordable packages, fast claims processing, and support from top insurance partners.</p>
