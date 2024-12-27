@@ -45,7 +45,7 @@ function CarDetail({ dataUsed }) {
         return (
             <div className="carousel-container" style={{ maxWidth: "500px", margin: "auto", textAlign: "center" }}>
                 <div className="carousel-slide" >
-                    <img src={slides[currentSlide]} alt={`Slide ${currentSlide + 1}`} style={{ width: '100%', borderRadius: '10px' }} />
+                    <img src={`${process.env.PUBLIC_URL}${slides[currentSlide]}`} alt={`Slide ${currentSlide + 1}`} style={{ width: '100%', borderRadius: '10px' }} />
                 </div>
                 <div className="carousel-controls" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                     <button onClick={prevSlide} style={{ background: "none", border: "none", fontSize: "30px", cursor: "pointer", marginTop: "-210px", color: "#fff", width: "80px", marginLeft: "-10px" }}>
