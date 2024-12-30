@@ -124,7 +124,7 @@ function Footer() {
                                 <p className='content-col__footer'>Car for sale</p>
                             </Link>
                         </div>
-                        <div className='col-item__footer'>
+                        <div style={{ width: "15%" }} className='col-item__footer'>
                             <p style={{ fontWeight: "bold", fontSize: "20px" }}>Support</p>
                             <Link style={{ textDecoration: "none", color: "#000" }} to="/FAQ">
                                 <p className='content-col__footer'>FAQ</p>
