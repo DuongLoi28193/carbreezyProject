@@ -148,7 +148,7 @@ function CUVnew() {
                     {cars.map((car) => (
                         <div onClick={() => nav(`/newCar/CUV/${car.id}`)} className="car-item_menu" key={car.id}>
                             <img
-                                src={`${process.env.PUBLIC_URL}${car.imgSrc}`}
+                                src={car.imgSrc}
                                 alt={car.name}
                                 className="car-image_menu"
                             />
