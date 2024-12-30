@@ -221,10 +221,10 @@ function CarDetail({ data }) {
                         <input className="input_check-testDrive" type="checkbox" id="check-testDrive" style={{ display: "none" }} />
 
                         <label for="check-testDrive" className="overlay__testDrive"></label>
-                            <TestDriveForm/>
+                        <TestDriveForm />
                     </div >
                 ) : (
-                    <p>Không có ảnh hoặc dữ liệu không hợp lệ</p> 
+                    <p>Không có ảnh hoặc dữ liệu không hợp lệ</p>
                 )
                 }
                 <div>

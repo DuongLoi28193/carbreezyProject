@@ -10,6 +10,38 @@ library.add(faFacebook, faYoutube, faXTwitter, faLinkedin);
 
 function Footer() {
 
+    const ScrollFooter = () => {
+        const scrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            });
+        };
+
+        useEffect(() => {
+            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+            window.onscroll = () => {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    scrollToTopBtn.style.display = "block";
+                } else {
+                    scrollToTopBtn.style.display = "none";
+                }
+            };
+        }, []);
+
+        return (
+            <button
+                id="scrollToTopBtn"
+                className="scroll-to-top-btn"
+                onClick={scrollToTop}
+                style={{ display: 'none' }}
+            >
+                ↑
+            </button>
+        );
+    };
+
     const [phone, setPhone] = useState("");
     const [errorPhone, setErrorPhone] = useState("");
 
@@ -202,6 +234,9 @@ function Footer() {
                 <p className='word__footer' style={{ textAlign: "center", marginBottom: "0px" }}>©<span className='color'>CarBreezy</span> 2024. All rights reserved.</p>
                 <Marquee />
             </div>
+
+            <ScrollFooter />
+
         </div >
     );
 }
