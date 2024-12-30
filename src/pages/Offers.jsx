@@ -36,14 +36,14 @@ function Offers({ dataUsed }) {
                             <div className="infoCar-offers">
                                 <p className="nameCar-offers">Tesla Model 3 Long Range Dual Motor AWD 2022</p>
                                 <p className="descCar-offers">Experience unmatched range, dual-motor precision, and cutting-edge technology. Drive the future today with Tesla. Book your test drive now!</p>
-                                <button onClick={() => nav(`/offers/45`)} className="btnView-offers btn-greeting-Offers">View Details</button>
+                                <button onClick={() => nav(`/newCar/22`)} className="btnView-offers btn-greeting-Offers">View Details</button>
                             </div>
                             <img className="img-offers-car-1" src={process.env.PUBLIC_URL + "/img/tesla006.jpg"} alt="" />
                         </div>
 
 
                         <div className="box__designExtra-layout">
-                            <div onClick={() => nav(`/offers/46`)} className="designExtra-item">
+                            <div onClick={() => nav(`/newCar/32`)} className="designExtra-item">
                                 <div className="designExtra-img-1">
                                     <div className="designExtra-color">
                                         <p className="title-title__offers">Kia Sonet 1.5L Turbo Premium Compact 2022 - Power Meets Style</p>
@@ -51,7 +51,7 @@ function Offers({ dataUsed }) {
                                     </div>
                                 </div>
                             </div>
-                            <div onClick={() => nav(`/offers/36`)} className="designExtra-item">
+                            <div onClick={() => nav(`/newCar/01`)} className="designExtra-item">
                                 <div className="designExtra-img-2">
                                     <div className="designExtra-color">
                                         <p className="title-title__offers">Ford Everest Sport 2.0L Turbo 4x2 Automatic 2021</p>
@@ -71,46 +71,46 @@ function Offers({ dataUsed }) {
 
                     <div className="container_offers-car-advance">
                         {/* offer-car-4 */}
-                        <div onClick={() => nav(`/offers/newCar/26`)} className="offers-car_item-4">
+                        <div className="offers-car_item-4">
                             <div className="bgColor-offers-car_item-4">
                                 <div className="infor-car-4">
                                     <p className="name-name_offers-4567" style={{ color: "#fff", fontFamily: "Poppins", fontWeight: "bold" }}>Ferrari Roma Spider</p>
                                     <p className="des-des_offers-4567" style={{ color: "#fff", fontFamily: "Poppins", fontWeight: "400", textAlign: "center", marginTop: "-10px", marginBottom: "40px" }}>Experience the thrill of a 2024 V8 Twin-Turbo, RWD masterpiece – where power meets open-top elegance!</p>
-                                    <button className="btn-offers-car-4">View Supercar</button>
+                                    <button onClick={() => nav(`/newCar/26`)} className="btn-offers-car-4">View Supercar</button>
                                 </div>
                             </div>
                         </div>
 
                         {   /* offer-car-5 */}
-                        <div onClick={() => nav(`/offers/newCar/05`)} className="offers-car_item-5">
+                        <div className="offers-car_item-5">
                             <div className="bgColor-offers-car_item-5">
                                 <div className="infor-car-5">
                                     <p className="name-name_offers-4567" style={{ color: "#fff", fontSize: "40px", fontFamily: "Poppins", fontWeight: "bold" }}>Ford Territory</p>
                                     <p className="des-des_offers-4567" style={{ color: "#fff", fontFamily: "Poppins", fontWeight: "400", textAlign: "center", marginTop: "-10px", marginBottom: "40px" }}>Stylish, smart, and built for comfort!</p>
-                                    <button className="btn-offers-car-5">View
+                                    <button onClick={() => nav(`/newCar/05`)} className="btn-offers-car-5">View
                                         CUV</button>
                                 </div>
                             </div>
                         </div>
 
                         {   /* offer-car-6 */}
-                        <div onClick={() => nav(`/offers/newCar/37`)} className="offers-car_item-6">
+                        <div className="offers-car_item-6">
                             <div className="bgColor-offers-car_item-6">
                                 <div className="infor-car-6">
                                     <p className="name-name_offers-4567" style={{ color: "#fff", fontFamily: "Poppins", fontWeight: "bold" }}>Ford Tourneo</p>
                                     <p className="des-des_offers-4567" style={{ color: "#fff", fontSize: "16px", fontFamily: "Poppins", fontWeight: "400", textAlign: "center", marginTop: "-10px", marginBottom: "40px" }}>Versatile, and designed for every adventure!</p>
-                                    <button className="btn-offers-car-6">View MPV</button>
+                                    <button onClick={() => nav(`/newCar/37`)} className="btn-offers-car-6">View MPV</button>
                                 </div>
                             </div>
                         </div>
 
                         {   /* offer-car-7 */}
-                        <div onClick={() => nav(`/offers/newCar/20`)} className="offers-car_item-7">
+                        <div className="offers-car_item-7">
                             <div className="bgColor-offers-car_item-7">
                                 <div className="infor-car-7">
                                     <p className="name-name_offers-4567" style={{ color: "#fff", fontFamily: "Poppins", fontWeight: "bold" }}>Mazda SkyActiv Luxury 2022</p>
                                     <p className="des-des_offers-4567 verySmall" style={{ color: "#fff", fontSize: "16px", fontFamily: "Poppins", fontWeight: "400", textAlign: "center", marginTop: "-10px", marginBottom: "40px" }}>Combining sleek design, advanced technology, and a 6-speed transmission for a refined and dynamic driving experience!</p>
-                                    <button className="btn-offers-car-7">View Sedans</button>
+                                    <button onClick={() => nav(`/newCar/20`)} className="btn-offers-car-7">View Sedans</button>
                                 </div>
                             </div>
                         </div>
