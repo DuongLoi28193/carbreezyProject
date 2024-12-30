@@ -865,7 +865,7 @@ function Newcar() {
                             setFuelFilter("");
                             setSortOrder("");
                         }}>
-                            <FontAwesomeIcon icon={faRotateLeft}> filter
+                            <FontAwesomeIcon icon={faRotateLeft} /> Filter
                         </button>
                     </div>
 
@@ -934,24 +934,6 @@ function Newcar() {
                     </div>
 
                 </div>
-
-                {/* box nav car-page  */}
-                {/* <div className="box_nav-pageCar">
-                    <div className='nav-pageCar-item-1'>
-                        <p style={{ marginBottom: "0" }}>Page 1 from 3</p>
-                    </div>
-                    <Link to="/newCar-page-2" style={{ textDecoration: "none", color: "#000" }}>
-                        <div className='nav-pageCar-item-2'>
-                            <p style={{ marginBottom: "0" }}>Next</p>
-                        </div>
-                    </Link>
-                    <Link to="/newCar-page-3" style={{ textDecoration: "none", color: "#000" }}>
-                        <div className='nav-pageCar-item-3'>
-                            <p style={{ marginBottom: "0" }}>Final</p>
-                        </div>
-                    </Link>
-                </div> */}
-
             </main >
 
             {/* footer */}
