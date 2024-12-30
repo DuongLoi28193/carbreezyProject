@@ -331,7 +331,7 @@ function UsedCar() {
                     {filteredCars.map((car) => (
                         <div onClick={() => nav(`/used-car/${car.id}`)} className="car-item_menu" key={car.id}>
                             <img
-                                src={car.imgSrc}
+                                src={`${process.env.PUBLIC_URL}${car.imgSrc}`}
                                 alt={car.name}
                                 className="car-image_menu"
                             />
