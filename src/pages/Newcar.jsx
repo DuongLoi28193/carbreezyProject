@@ -1,7 +1,7 @@
 import { Routes, Route, Link, useNavigate } from 'react-router-dom'
 import FAQComponent from './FAQ'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGasPump, faCogs, faSearch, faTags, faCar, faRotateLeft, faRotateLeft } from '@fortawesome/free-solid-svg-icons';
+import { faGasPump, faCogs, faSearch, faTags, faCar, faRotateLeft } from '@fortawesome/free-solid-svg-icons';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Footer';
