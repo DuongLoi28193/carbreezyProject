@@ -145,8 +145,8 @@ const MAZDAnew = () => {
       </div>
 
       {/* result bar */}
-      <div className="bar-results" style={{marginBottom: "30px"}} >
-        <p className='num-results'>7 results</p>
+      <div className="bar-results" style={{ marginBottom: "30px" }} >
+        <p className='num-results'>6 results</p>
       </div>
 
       {/*show used car - CUV  */}

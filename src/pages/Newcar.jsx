@@ -778,7 +778,6 @@ function Newcar() {
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                <button onClick={() => console.log("Search term:", searchTerm)}>Search</button>
             </div>
 
             {/* search brand-model */}
