@@ -222,36 +222,6 @@ function CarDetail({ data }) {
 
                         <label for="check-testDrive" className="overlay__testDrive"></label>
                             <TestDriveForm/>
-                        {/* <div className="container__popUp-testdrive">
-                            <div className="container__content__popUpTestDrive" style={{ fontFamily: 'Poppins', backgroundColor: '#f0f4fb', padding: '20px', borderRadius: '8px', margin: 'auto', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' }}>
-                                <h2 style={{ color: '#333', textAlign: 'left' }}>Test drive registration information</h2>
-                                <form>
-                                    <div style={{ marginBottom: '15px' }}>
-                                        <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Appointment date <span style={{ color: 'red' }}>*</span></label>
-                                        <input type="date" placeholder="2024-12-15" style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }} />
-                                    </div>
-                                    <div style={{ marginBottom: '15px' }}>
-                                        <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Time <span style={{ color: 'red' }}>*</span></label>
-                                        <input type="time" placeholder="15:57" style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }} />
-                                    </div>
-                                    <div style={{ marginBottom: '15px' }}>
-                                        <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Full name <span style={{ color: 'red' }}>*</span></label>
-                                        <input type="text" placeholder="Nguyen Van A" style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }} />
-                                    </div>
-                                    <div style={{ marginBottom: '15px' }}>
-                                        <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Phone number <span style={{ color: 'red' }}>*</span></label>
-                                        <input type="text" placeholder="Phone number" style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }} />
-                                    </div>
-                                    <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                                        <button type="button" className="btn-close__testDrive">
-                                            <label style={{ cursor: "pointer" }} for="check-testDrive">Close</label>
-                                        </button>
-                                        <button type="submit" className="btn-confirm__testDrive">Confirm</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div> */}
-
                     </div >
                 ) : (
                     <p>Không có ảnh hoặc dữ liệu không hợp lệ</p> 
