@@ -71,14 +71,14 @@ function ContactUs() {
     };
 
     return (
-        <div style={{ marginTop: "70px" }}>
+        <div style={{ paddingTop: "70px" }}>
             <div className="cont-us-banner">
                 <div className="contus-overlay"></div>
                 <span className="cont-us_content">
                     <h1>CONTACT US</h1>
                 </span>
             </div>
-            <div className="cont-us-info">
+            {/* <div className="cont-us-info">
                 <div className="cont-us-getin">
                     <h1>Get In Touch</h1>
                     <div className="cont-us-icon">
@@ -101,11 +101,11 @@ function ContactUs() {
                                 <FontAwesomeIcon icon={faClock} style={{ color: "#BD1919", marginRight: "10px" }} />
                                 carbreezyCar@gmail.com
                             </span>
-                        </div>                        
+                        </div>
                     </div>
                     <div className="cont-us_ggmap">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3253163053173!2d56.66372207616801!3d5.786376989363044!2m3!1f0!2f0!3f0!3m2!1i524!2i768!4f13.1!3m3!1m2!1s0x31752ed2182fc277%3A0xd13475e1f695561e!2zU2nDqnUgVGjhu4sgxJBp4buHbiBNw6F5IE7hu5lpIFRo4bqldCBDaOG7oyBM4bubbg!5e0!3m2!1sen!2s!4v1734391378686!5m2!1sen!2s" ></iframe>
-                    </div>                   
+                    </div>
                 </div>
                 <div className="cont-us-about">
                     <div className="contus-keepclose">
@@ -178,6 +178,122 @@ function ContactUs() {
                                 </div>
                                 <div className="contus-btn">
                                     <button type="submit">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> */}
+
+            <div className="cont-us-info">
+                <div className="cont-us-getin">
+                    <h1>Get In Touch</h1>
+                    <div className="cont-us-icon">
+                        <div className="cont-us-icon2">
+                            <span>
+                                <FontAwesomeIcon icon={faMapMarkerAlt} style={{ color: "#BD1919", marginRight: "10px" }} />
+                                2425 Carriage Loop Sw
+                                Olympia, WA 98502
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faEnvelope} style={{ color: "#BD1919", marginRight: "10px" }} />
+                                carbreezyCar@gmail.com
+                            </span>
+                        </div>
+                        <div className="cont-us-icon2">
+                            <span>
+                                <FontAwesomeIcon icon={faPhone} style={{ color: "#BD1919", marginRight: "10px" }} />
+                                +1 253-289-5242
+                            </span>
+                            <span>
+                                <FontAwesomeIcon icon={faClock} style={{ color: "#BD1919", marginRight: "10px" }} />
+                                carbreezyCar@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.381617533073!2d-122.93148629999997!3d47.032742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549175b27b9a2823%3A0x27d8c680f79bfddd!2s2425%20Carriage%20Loop%20SW%2C%20Olympia%2C%20WA%2098502%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1734876448707!5m2!1svi!2s"
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        title="Google Map"
+                    ></iframe>
+                </div>
+
+                <div className="cont-us-about">
+                    <div className="contus-keepclose">
+                        <span><hr className="hr__contact" style={{ width: "50px" }} /></span>
+                        <span className="keep-close__contact">KEEP CLOSE</span>
+                    </div>
+                    <div className="contus-aboutus">
+                        <h1>About Us</h1>
+                        <div className="contus-introduce">
+                            <div style={{ width: "100%" }}>
+                                <p>
+                                    <span className="color">CarBreezy</span> is a leading digital marketplace that makes car buying and selling easy, transparent, and efficient. We provide useful tools, research, and pricing transparency to help consumers make informed decisions.
+                                </p>
+                            </div>
+                            <div style={{ width: "100%" }}>
+                                <p>
+                                    Our platform allows buyers to find the right vehicle and complete the entire purchase process from the comfort of their home, bringing more of the car-buying journey online. With a trusted brand and strong reputation, <span className="color">CarBreezy</span> ensures a fast, convenient, and seamless car-buying experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="contus-yourdetails">
+                        <div>
+                            <h1 style={{ marginRight: "70px 0 0 0" }}>YOUR DETAILS</h1>
+                            <span style={{ color: "#767676" }}>Let us know how to get back to you!</span>
+                        </div>
+                        <form onSubmit={handleSubmit}>
+                            <div className="contus-getinfo">
+                                <div className="contus-name_mail">
+                                    <div className="contus_name">
+                                        <h5>NAME *</h5>
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            value={formData.name}
+                                            onChange={handleChange}
+                                        />
+                                        {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
+                                    </div>
+                                    <div className="contus_mail">
+                                        <h5>EMAIL ADDRESS *</h5>
+                                        <input
+                                            type="text"
+                                            name="email"
+                                            value={formData.email}
+                                            onChange={handleChange}
+
+                                        />
+                                        {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
+                                    </div>
+                                </div>
+                                <div className="contus-Subject">
+                                    <h5>SUBJECT *</h5>
+                                    <input
+                                        type="text"
+                                        name="subject"
+                                        value={formData.subject}
+                                        onChange={handleChange}
+                                    />
+                                    {errors.subject && <p style={{ color: "red" }}>{errors.subject}</p>}
+                                </div>
+                                <div className="contus-questions">
+                                    <h5>COMMENTS/QUESTIONS *</h5>
+                                    <textarea
+                                        name="comments"
+                                        value={formData.comments}
+                                        onChange={handleChange}
+                                        rows="5"
+                                    ></textarea>
+                                    {errors.comments && (
+                                        <p style={{ color: "red" }}>{errors.comments}</p>
+                                    )}
+                                </div>
+                                <div className="contus-btn">
+                                    <button className="btn-send__contact" type="submit">SEND</button>
                                 </div>
                             </div>
                         </form>
