@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/carbreezyProject/static/css/main.ac2a6b93.css",
-    "main.js": "/carbreezyProject/static/js/main.0fe85087.js",
+    "main.js": "/carbreezyProject/static/js/main.759f9dbf.js",
     "static/js/488.da0a66d9.chunk.js": "/carbreezyProject/static/js/488.da0a66d9.chunk.js",
     "static/media/ferrari01.jpg": "/carbreezyProject/static/media/ferrari01.4a1bbedba4acb7fedf9a.jpg",
     "static/media/ford04.jpg": "/carbreezyProject/static/media/ford04.3dc213aea6d1dcac6c74.jpg",
@@ -19,11 +19,11 @@
     "static/media/slick.woff": "/carbreezyProject/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/carbreezyProject/index.html",
     "main.ac2a6b93.css.map": "/carbreezyProject/static/css/main.ac2a6b93.css.map",
-    "main.0fe85087.js.map": "/carbreezyProject/static/js/main.0fe85087.js.map",
+    "main.759f9dbf.js.map": "/carbreezyProject/static/js/main.759f9dbf.js.map",
     "488.da0a66d9.chunk.js.map": "/carbreezyProject/static/js/488.da0a66d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac2a6b93.css",
-    "static/js/main.0fe85087.js"
+    "static/js/main.759f9dbf.js"
   ]
 }
