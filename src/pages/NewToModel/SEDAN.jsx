@@ -283,11 +283,11 @@ function SEDANnew() {
                                 <p className="nameCar_menu">{car.name}</p>
                                 <div className='box-priceCar_menu' style={{ minHeight: "23%" }}>
                                     <span className="newPriceCar_menu">
-                                        {car.newPrice}$
+                                        ${car.newPrice}
                                     </span>
                                     <span style={{ fontSize: "22px", color: "#555", fontWeight: "400" }} className="priceCar_menu">
                                         <div className='box-extra_icon-price'>
-                                            <FontAwesomeIcon className='iconTags' icon={faTags} />{car.price}$ (Price without DPH)
+                                            <FontAwesomeIcon className='iconTags' icon={faTags} />${car.price} (Price without DPH)
                                         </div>
                                     </span>
                                 </div>

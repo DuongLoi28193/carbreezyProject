@@ -105,11 +105,11 @@ function MPVused() {
                                 <p className="nameCar_menu">{car.name}</p>
                                 <div className='box-priceCar_menu' style={{ minHeight: "23%" }}>
                                     <span className="newPriceCar_menu">
-                                        {car.newPrice}$
+                                        ${car.newPrice}
                                     </span>
                                     <span style={{ fontSize: "22px", color: "#555", fontWeight: "400" }} className="priceCar_menu">
                                         <div className='box-extra_icon-price' style={{ textDecoration: "line-through" }}>
-                                            <FontAwesomeIcon className='iconTags' icon={faTags} />{car.price}$ (Price with DPH)
+                                            <FontAwesomeIcon className='iconTags' icon={faTags} />${car.price} (Price with DPH)
                                         </div>
                                     </span>
                                 </div>

@@ -133,7 +133,7 @@ const FORDnew = () => {
       </div>
 
       {/* result bar */}
-      <div className="bar-results" style={{marginBottom: "30px"}}>
+      <div className="bar-results" style={{ marginBottom: "30px" }}>
         <p className='num-results'>7 results</p>
       </div>
 
@@ -151,11 +151,11 @@ const FORDnew = () => {
                 <p className="nameCar_menu">{car.name}</p>
                 <div className='box-priceCar_menu' style={{ minHeight: "23%" }}>
                   <span className="newPriceCar_menu">
-                    {car.price}$
+                    ${car.price}
                   </span>
                   <span style={{ fontSize: "22px", color: "#555", fontWeight: "400" }} className="priceCar_menu">
                     <div className='box-extra_icon-price'>
-                      <FontAwesomeIcon className='iconTags' icon={faTags} />{car.priceWithout}$ (Price without DPH)
+                      <FontAwesomeIcon className='iconTags' icon={faTags} />${car.priceWithout} (Price without DPH)
                     </div>
                   </span>
                 </div>

@@ -4777,7 +4777,7 @@ main {
   cursor: pointer;
   display: none;
   transition: all 0.3s ease;
-  width: 50px;
+  width: 47px;
 }
 
 .scroll-to-top-btn:hover {
