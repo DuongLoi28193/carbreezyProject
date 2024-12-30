@@ -71,14 +71,13 @@ function ContactUs() {
     };
 
     return (
-        <div style={{ paddingTop: "70px" }}>
+        <div>
             <div className="cont-us-banner">
                 <div className="contus-overlay"></div>
                 <span className="cont-us_content">
-                    <h1>CONTACT US</h1>
+                    <p className="title-page__contactUS">CONTACT US</p>
                 </span>
             </div>
-
             <div className="cont-us-info">
                 <div className="cont-us-getin">
                     <h1>Get In Touch</h1>
@@ -195,7 +194,7 @@ function ContactUs() {
                 </div>
             </div>
             <Footer />
-        </div>
+        </div >
     );
 }
 
