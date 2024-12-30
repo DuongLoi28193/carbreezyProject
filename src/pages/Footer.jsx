@@ -8,6 +8,32 @@ import Marquee from './Marquee';
 library.add(faFacebook, faYoutube, faXTwitter, faLinkedin);
 
 function Footer() {
+
+    const [phone, setPhone] = useState("");
+    const [errorPhone, setErrorPhone] = useState("");
+
+    const rePhone = /^[0-9]{8,10}$/;
+
+    const checkPhone = (e) => {
+        const valPhone = e.target.value;
+        if (valPhone === "") {
+            setErrorPhone("Phone must be required");
+        } else {
+            setErrorPhone("");
+        }
+        setPhone(valPhone);
+    }
+
+    const registerSubmit = () => {
+        if (phone === "") {
+            alert("Phone field can't be left blank ❌");
+        } else if (!rePhone.test(phone)) {
+            alert("Phone must be a valid number between 8 and 10 digits ❌");
+        } else {
+            alert("You registered successfully ✔✨");
+        }
+    };
+
     return (
         <div style={{ marginTop: "200px" }}>
             <div className="container__showAllCar">
