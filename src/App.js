@@ -103,8 +103,9 @@ function App() {
         <div className='nav-right'>
           <Link className='link' to="/contact">Contact</Link>
           <Link className='link' to="/FAQ">FAQ</Link>
-          {/* <CountUser /> */}
-          <VisitorCounterNav />
+          <div className='visitorNav-none'>
+            <VisitorCounterNav />
+          </div>
         </div>
 
         {/* navbar for tablet & mobile */}

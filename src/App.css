@@ -2574,6 +2574,7 @@ nav .nav-right {
   margin-right: 50px;
 }
 
+
 /* keyframe - fadeIn */
 @keyframes fadeIn {
   from {
@@ -2781,7 +2782,7 @@ nav .nav-right {
   justify-content: space-around;
   width: 95%;
   margin: auto;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 
@@ -5294,6 +5295,10 @@ main {
     height: 20px;
     margin-top: 10px;
     margin-left: 15px;
+  }
+
+  .visitorNav-none {
+    display: none;
   }
 
   /* Top favourite model cars */
