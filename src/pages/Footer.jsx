@@ -13,7 +13,7 @@ function Footer() {
     const [phone, setPhone] = useState("");
     const [errorPhone, setErrorPhone] = useState("");
 
-    const rePhone = /^[0-9]{8,10}$/;
+    const rePhone = /^[0-9]{8,15}$/;
 
     const checkPhone = (e) => {
         const valPhone = e.target.value;
@@ -29,7 +29,7 @@ function Footer() {
         if (phone === "") {
             alert("Phone field can't be left blank ❌");
         } else if (!rePhone.test(phone)) {
-            alert("Phone must be a valid number between 8 and 10 digits ❌");
+            alert("Phone must be a valid number between 8 and 15 digits ❌");
         } else {
             alert("You registered successfully ✔✨");
         }
