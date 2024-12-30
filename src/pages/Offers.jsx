@@ -27,7 +27,7 @@ function Offers({ dataUsed }) {
                             <div className="infoCar-offers">
                                 <p className="nameCar-offers">Kia Carens Signature Premium MPV 2023</p>
                                 <p className="descCar-offers">Spacious design, advanced technology, and powerful performance. The perfect choice for your family! Explore now and enjoy exclusive offers!</p>
-                                <button onClick={() => nav(`/newCar/41`)} className="btnView-offers btn-greeting-Offers">View Details</button>
+                                <button onClick={() => nav(`/newCar/11`)} className="btnView-offers btn-greeting-Offers">View Details</button>
                             </div>
                         </div>
 
