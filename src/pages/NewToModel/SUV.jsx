@@ -173,7 +173,7 @@ function SUVnew() {
             </div>
 
             {/* result bar */}
-            <div className="bar-results">
+            <div className="bar-results" style={{ marginBottom: "25px" }}>
                 <p className='num-results'>8 results</p>
             </div>
 

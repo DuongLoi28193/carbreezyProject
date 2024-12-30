@@ -30,7 +30,7 @@ function SUPPERCARused() {
             </div>
 
             {/* result bar */}
-            <div className="bar-results">
+            <div className="bar-results" style={{ marginBottom: "25px" }} >
                 <p className='num-results'>0 results</p>
             </div>
 
