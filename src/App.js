@@ -160,8 +160,6 @@ function App() {
         {/* pages */}
         <Route path="/" element={<Home />} />
         <Route path="/newCar" element={<Newcar />} />
-        <Route path="/newCar-page-2" element={<Newcar2 />} />
-        <Route path="/newCar-page-3" element={<Newcar3 />} />
         <Route path="/FAQ" element={<FAQComponent />} />
         <Route path="/used-car" element={<UsedCar />} />
         <Route path="/offers" element={<Offers />} />
