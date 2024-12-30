@@ -106,22 +106,22 @@ function Footer() {
                     <div className='box-icon__footer'>
                         <div>
                             <a style={{ display: "inline-block", width: "100%" }} href="https://www.facebook.com/easypeasycarbreezy" target='_blank'>
-                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'facebook']} />
+                                <FontAwesomeIcon className='icon__footer' icon={['fab', 'facebook']} />
                             </a>
                         </div>
                         <div>
                             <a style={{ display: "inline-block", width: "100%" }} href="https://www.youtube.com/@carbreezy1639" target='_blank'>
-                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'youtube']} />
+                                <FontAwesomeIcon className='icon__footer' icon={['fab', 'youtube']} />
                             </a>
                         </div>
                         <div>
                             <a style={{ display: "inline-block", width: "100%" }} href="https://x.com/EasyCarBreezy" target='_blank'>
-                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'x-twitter']} />
+                                <FontAwesomeIcon className='icon__footer' icon={['fab', 'x-twitter']} />
                             </a>
                         </div>
                         <div>
                             <a style={{ display: "inline-block", width: "100%" }} href="https://www.linkedin.com/company/carbreezy/" target='_blank'>
-                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'linkedin']} />
+                                <FontAwesomeIcon className='icon__footer' icon={['fab', 'linkedin']} />
                             </a>
                         </div>
                     </div>

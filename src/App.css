@@ -4677,7 +4677,7 @@ main {
 }
 
 .icon__footer {
-  width: 18%;
+  width: 70px;
   font-size: 33px;
   color: #000;
   cursor: pointer;
@@ -5847,7 +5847,8 @@ main {
   }
 
   .icon__footer {
-    font-size: 50px !important;
+    /* font-size: 50px !important; */
+    width: 30px;
   }
 
   svg:not(:root).svg-inline--fa,
