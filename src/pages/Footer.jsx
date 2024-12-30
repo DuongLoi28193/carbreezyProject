@@ -106,9 +106,11 @@ function Footer() {
                             <p className='sign-up_insurance'>Sign up to buy insurance at CarBreezy</p>
                             <p className='get-the-lastes'>Get the latest deals, promotions & exclusive benefits straight to your inbox</p>
                             <div>
-                                <input className='input__footer' type="text" placeholder='Enter your phone number' />
-                                <button className='btn-register_footer'>Register</button>
+                                <input onChange={checkPhone} className='input__footer' type="text" placeholder='Enter your phone number' />
+                                <button onClick={registerSubmit} className='btn-register_footer'>Register</button>
                             </div>
+                            <span style={{ color: "#BD1919" }}>{errorPhone}</span>
+
                         </div>
                         <div className='countUser-position'>
                             <CountUser />
@@ -120,8 +122,11 @@ function Footer() {
                             <Link style={{ textDecoration: "none", color: "#000" }} to="/newCar">
                                 <p className='content-col__footer'>Buy a car</p>
                             </Link>
-                            <Link style={{ textDecoration: "none", color: "#000" }} to="/offers">
+                            <Link style={{ textDecoration: "none", color: "#000" }} to="/used-car">
                                 <p className='content-col__footer'>Car for sale</p>
+                            </Link>
+                            <Link style={{ textDecoration: "none", color: "#000" }} to="/offers">
+                                <p className='content-col__footer'>Ride & Save</p>
                             </Link>
                         </div>
                         <div className='col-item__footer'>
@@ -137,7 +142,7 @@ function Footer() {
                             <p style={{ fontWeight: "bold", fontSize: "20px" }}>Contact Us</p>
                             <Link style={{ textDecoration: "none", color: "#000" }} to="mailto:CarBreezy@gmail.com?subject=I%20%E2%80%99d%20appreciate%20CarBreezy%E2%80%99s%20expert%20advice.">
                                 <p className='content-col__footer'>
-                                    <FontAwesomeIcon icon={faEnvelope} />
+                                    <FontAwesomeIcon style={{ width: "20px" }} icon={faEnvelope} />
                                     CarBreezy@gmail.com</p>
                             </Link>
                             <Link style={{ textDecoration: "none", color: "#000" }} to="tel:+12532895242">
