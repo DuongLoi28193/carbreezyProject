@@ -134,13 +134,6 @@ function SUVused() {
                 <p className='num-results'>5 results</p>
             </div>
 
-            {/* search bar */}
-            <div style={{ marginTop: "25px", marginBottom: "20px" }} className="container_searchToBrand">
-                <FontAwesomeIcon icon={faSearch} className="icon-searchBar" />
-                <input type="text" placeholder="Search..." />
-                <button>Search</button>
-            </div>
-
             {/* search brand-model */}
             <div className="container_brand-model__search">
                 <div className="brands_search">

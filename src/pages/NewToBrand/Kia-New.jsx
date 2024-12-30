@@ -158,13 +158,6 @@ const KIAnew = () => {
         <p className='num-results'>7 results</p>
       </div>
 
-      {/* search bar */}
-      <div style={{ marginTop: "25px", marginBottom: "20px" }} className="container_searchToBrand">
-        <FontAwesomeIcon icon={faSearch} className="icon-searchBar" />
-        <input type="text" placeholder="Search..." />
-        <button>Search</button>
-      </div>
-
       <div className="container_brand-model__search">
         <div className="brands_search">
           <span className='title-search'>Brands:</span>

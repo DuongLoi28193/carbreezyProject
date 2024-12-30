@@ -83,7 +83,6 @@ function CUVnew() {
 
     const nav = useNavigate();
 
-
     return (
         <div>
             <div style={{ height: "70px" }}></div>
@@ -105,23 +104,6 @@ function CUVnew() {
             {/* result bar */}
             <div className="bar-results">
                 <p className='num-results'>4 results</p>
-            </div>
-
-            {/* search bar */}
-            {/* <div style={{ marginTop: "25px", marginBottom: "20px" }} className="container_searchToBrand">
-                <FontAwesomeIcon icon={faSearch} className="icon-searchBar" />
-                <input type="text" placeholder="Search..." />
-                <button>Search</button>
-            </div> */}
-            {/* search bar */}
-            <div style={{ marginTop: "25px", marginBottom: "20px" }} className="container_searchToBrand">
-                <FontAwesomeIcon icon={faSearch} className="icon-searchBar" />
-                <input
-                    type="text"
-                    placeholder="Search..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                />
             </div>
 
             <div className="container_brand-model__search">
