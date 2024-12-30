@@ -4489,7 +4489,6 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* background-color: burlywood; */
 }
 
 .title__speci {
@@ -5498,7 +5497,6 @@ main {
   }
 
   .container__speci {
-    margin-top: 250px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
