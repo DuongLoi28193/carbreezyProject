@@ -108,10 +108,20 @@ function CUVnew() {
             </div>
 
             {/* search bar */}
-            <div style={{ marginTop: "25px", marginBottom: "20px" }} className="container_searchToBrand">
+            {/* <div style={{ marginTop: "25px", marginBottom: "20px" }} className="container_searchToBrand">
                 <FontAwesomeIcon icon={faSearch} className="icon-searchBar" />
                 <input type="text" placeholder="Search..." />
                 <button>Search</button>
+            </div> */}
+            {/* search bar */}
+            <div style={{ marginTop: "25px", marginBottom: "20px" }} className="container_searchToBrand">
+                <FontAwesomeIcon icon={faSearch} className="icon-searchBar" />
+                <input
+                    type="text"
+                    placeholder="Search..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                />
             </div>
 
             <div className="container_brand-model__search">
@@ -156,8 +166,7 @@ function CUVnew() {
                     {cars.map((car) => (
                         <div onClick={() => nav(`/newCar/CUV/${car.id}`)} className="car-item_menu" key={car.id}>
                             <img
-                                // src={car.imgSrc}
-                                src={`/img/${car.imgSrc}`}
+                                src={`${process.env.PUBLIC_URL}${car.imgSrc}`}
                                 alt={car.name}
                                 className="car-image_menu"
                             />

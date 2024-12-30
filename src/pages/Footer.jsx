@@ -102,7 +102,7 @@ function Footer() {
             <div className="container__footer">
                 <div className="box__social-footer">
                     <img className="logo-img__footer" src={process.env.PUBLIC_URL + "/img/mainlogo.jpg"} alt="" />
-                    <p className="slogan__footer">CarBreezy – Vietnam's top used car platform, offering a fast, transparent, and trusted experience.</p>
+                    <p className="slogan__footer">CarBreezy – Vietnam's top platform for premium and pre-owned vehicles, offering a fast, transparent, and trusted experience.</p>
                     <div className='box-icon__footer'>
                         <div>
                             <a style={{ display: "inline-block", width: "100%" }} href="https://www.facebook.com/easypeasycarbreezy" target='_blank'>
