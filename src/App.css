@@ -1078,7 +1078,7 @@ button {
   border-radius: 10px;
 }
 
-.cont-us_ggmap iframe {
+iframe {
   width: 80%;
   /* height: 600px; */
   height: 100%;
