@@ -56,17 +56,17 @@ function Home() {
 
                     <div className='container_reason-content'>
                         <div className="reason-item">
-                            <img className='logo-reason' src={process.env.PUBLIC_URL+"/img/images-removebg-preview_2-removebg-preview.png"} alt="" />
+                            <img className='logo-reason' src={process.env.PUBLIC_URL + "/img/images-removebg-preview_2-removebg-preview.png"} alt="" />
                             <p className='title-reason-content'>Quality and Reliability</p>
                             <p className='reason-content'>CarBreezy offers a range of cars that combine modern technology and high reliability. Each car in our product range is designed to meet the diverse needs of our customers.</p>
                         </div>
                         <div style={{ marginTop: "20px" }} className="reason-item">
-                            <img style={{ width: "60px" }} className='logo-reason' src={process.env.PUBLIC_URL+"/img/logo-reason-2.png"} alt="" />
+                            <img style={{ width: "60px" }} className='logo-reason' src={process.env.PUBLIC_URL + "/img/logo-reason-2.png"} alt="" />
                             <p className='title-reason-content'>Excellent Customer Service</p>
                             <p className='reason-content'>CarBreezy's team is always ready to support you, from car selection to after-sales maintenance, ensuring a perfect experience for each customer.</p>
                         </div>
                         <div className="reason-item">
-                            <img className='logo-reason' src={process.env.PUBLIC_URL+"/img/logo-reason-3.png"} alt="" />
+                            <img className='logo-reason' src={process.env.PUBLIC_URL + "/img/logo-reason-3.png"} alt="" />
                             <p className='title-reason-content'>Competitive Prices</p>
                             <p className='reason-content'>We offer competitive prices on both new and used cars to suit your every need and budget.</p>
                         </div>
@@ -114,7 +114,7 @@ function Home() {
                     <div className="container-feedback">
                         <div className="feedback-item">
                             <div className='header-feedback'>
-                                <img className='star' src="../img/star.png" alt="" />
+                                <img className='star' src={process.env.PUBLIC_URL + "/img/star.png"} alt="" />
                                 <div style={{ width: "70px" }}></div>
                                 <p className='day'>12/05/2024</p>
                             </div>
@@ -125,7 +125,7 @@ function Home() {
                         </div>
                         <div className="feedback-item">
                             <div className='header-feedback'>
-                                <img className='star' src="../img/star.png" alt="" />
+                                <img className='star' src={process.env.PUBLIC_URL + "../img/star.png"} alt="" />
                                 <div style={{ width: "70px" }}></div>
                                 <p className='day'>06/04/2023</p>
                             </div>
@@ -136,7 +136,7 @@ function Home() {
                         </div>
                         <div className="feedback-item">
                             <div className='header-feedback'>
-                                <img className='star' src="../img/star.png" alt="" />
+                                <img className='star' src={process.env.PUBLIC_URL + "../img/star.png"} alt="" />
                                 <div style={{ width: "70px" }}></div>
                                 <p className='day'>20/12/2024</p>
                             </div>
@@ -157,7 +157,7 @@ function Home() {
                         </Link>
                     </div>
                 </div>
-                
+
                 {/* footer */}
                 <Footer />
 

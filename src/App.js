@@ -79,7 +79,7 @@ function App() {
         </div>
 
         <div className='nav-left'>
-          <Link className='link' to="/"><FontAwesomeIcon icon={faHome} />Home</Link>
+          <Link className='link' to="/">Home</Link>
           <Link className='link' to="/newCar">New car</Link>
           <div className="navbar">
             <div className="navbar-container">
