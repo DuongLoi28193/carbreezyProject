@@ -13,19 +13,17 @@ function Offers({ dataUsed }) {
                     <div style={{ marginTop: "180px" }}>
                         <p className="title-extra-Offers">Discover unbeatable car deals tailored to your needs and budget. </p>
                         <p className="title-Offers">Drive Home with the Best Deal</p>
-                        <button className="btn-greeting-Offers">See now</button>
                     </div>
                 </div>
             </div>
 
             {/* Top Featured Cars with Exclusive Offers  */}
             <div>
-                {/* {dataUsed.map((car) => ( */}
                 <div>
                     <div className="container_offers-car-basic">
                         {/* offer-car-1 */}
                         <div className="offers-car_item-1" id="offer1" >
-                            <img className="img-offers-car-1" src="../img/kia02.jpg" alt="" />
+                            <img className="img-offers-car-1" src={process.env.PUBLIC_URL + "/img/kia02.jpg"} alt="" />
                             <div className="infoCar-offers">
                                 <p className="nameCar-offers">Kia Carens Signature Premium MPV 2023</p>
                                 <p className="descCar-offers">Spacious design, advanced technology, and powerful performance. The perfect choice for your family! Explore now and enjoy exclusive offers!</p>
@@ -40,7 +38,7 @@ function Offers({ dataUsed }) {
                                 <p className="descCar-offers">Experience unmatched range, dual-motor precision, and cutting-edge technology. Drive the future today with Tesla. Book your test drive now!</p>
                                 <button onClick={() => nav(`/offers/45`)} className="btnView-offers btn-greeting-Offers">View Details</button>
                             </div>
-                            <img className="img-offers-car-1" src="../img/tesla006.jpg" alt="" />
+                            <img className="img-offers-car-1" src={process.env.PUBLIC_URL + "/img/tesla006.jpg"} alt="" />
                         </div>
 
 
@@ -119,8 +117,6 @@ function Offers({ dataUsed }) {
                     </div>
 
                 </div>
-                {/* )) */}
-                {/* } */}
 
                 {/* Drive Confidently with CarBreezy Insurance */}
                 <div style={{ textAlign: "center", marginTop: "150px" }}>
@@ -132,14 +128,14 @@ function Offers({ dataUsed }) {
 
                 <div className="container_insurances">
                     <div className="insurance-item">
-                        <img style={{ marginTop: "-15px" }} className="img-insurance" src="/img/insurance-logo-1.jpg" alt="" />
+                        <img style={{ marginTop: "-15px" }} className="img-insurance" src={process.env.PUBLIC_URL + "/img/insurance-logo-1.jpg"} alt="" />
                         <p className="category-service">Engine Hydrolock</p>
                         <p className="desc-detail_insurance">MBI insured customers: <span className="hl-word">$560</span></p>
                         <p className="desc-detail_insurance">MBI uninsured customers: <span className="hl-word">$1050</span></p>
                         <p className="desc-detail_insurance">Uninsured: <span className="hl-word">$1500</span></p>
                     </div>
                     <div className="insurance-item">
-                        <img className="img-insurance" src="/img/insurance-logo-2.jpg" alt="" />
+                        <img className="img-insurance" src={process.env.PUBLIC_URL + "/img/insurance-logo-2.jpg"} alt="" />
                         <p className="category-service">Extended Warranty</p>
                         <div className="infor-insurance">
                             <p className="desc-detail_insurance">✔️<span className="hl-word">1-year</span> renewal package: receive a <span className="hl-word">$100</span> gas voucher immediately</p>
@@ -150,7 +146,7 @@ function Offers({ dataUsed }) {
 
                 <div className="container_insurances">
                     <div className="insurance-item">
-                        <img style={{ width: "250px", height: "250px", marginTop: "10px" }} className="img-insurance" src="/img/insurance-logo-3.jpg" alt="" />
+                        <img style={{ width: "250px", height: "250px", marginTop: "10px" }} className="img-insurance" src={process.env.PUBLIC_URL + "/img/insurance-logo-3.jpg"} alt="" />
                         <div className="infor-insurance">
                             <p style={{ marginTop: "-40px" }} className="category-service">Special Tires</p>
                             <p className="desc-detail_insurance"><span className="hl-word">2 tires:</span> Free replacement labor</p>
@@ -158,7 +154,7 @@ function Offers({ dataUsed }) {
                         </div>
                     </div>
                     <div className="insurance-item">
-                        <img style={{ width: "250px", height: "250px" }} className="img-insurance" src="/img/insurance-logo-4.jpg" alt="" />
+                        <img style={{ width: "250px", height: "250px" }} className="img-insurance" src={process.env.PUBLIC_URL + "/img/insurance-logo-4.jpg"} alt="" />
                         <div className="infor-insurance">
                             <p style={{ marginTop: "-40px" }} className="category-service">Trusted Partners</p>
                             <p className="desc-detail_insurance">Comprehensive auto insurance with affordable packages, fast claims processing, and support from top insurance partners.</p>
