@@ -5155,6 +5155,10 @@ main {
     display: none;
   }
 
+  .box-extra_icon-price {
+    column-gap: 3px;
+  }
+
   /* Top favourite model cars */
   .favouriteCar_item {
     width: 90%;

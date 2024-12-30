@@ -110,7 +110,7 @@ const carData = [
     imgSrc: [process.env.PUBLIC_URL + "/img/ferrari01.jpg"],
     year: 2022,
     power: "450 kW",
-    priceWithout: 20999
+    priceWithout: 200999
   }
 ];
 
