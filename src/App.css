@@ -4283,7 +4283,6 @@ main {
   margin-top: 50px !important;
   margin: auto;
   gap: 20px;
-  min-height: 100%;
 }
 
 .container__car-detail .box_image-car {
@@ -4329,7 +4328,6 @@ main {
   padding: 20px;
   padding-top: 6px;
   gap: 0;
-  height: auto;
   box-sizing: border-box;
   flex-grow: 1;
   position: sticky;
@@ -4362,7 +4360,6 @@ main {
 
 .box_infor-car_extra {
   display: flex;
-  height: 100px;
   flex-direction: column;
 }
 
