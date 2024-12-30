@@ -1,6 +1,5 @@
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
 // import pages
 import './App.css';
 import FAQComponent from './pages/FAQ';
@@ -52,10 +51,7 @@ import TESLAused from './pages/UsedToBrand/Tesla-Used';
 import FERRARIused from './pages/UsedToBrand/Ferrari-Used';
 import FORDused from './pages/UsedToBrand/Ford-Used';
 import MAZDAused from './pages/UsedToBrand/Mazda-Used';
-import Newcar2 from './pages/Newcar-2';
-import Newcar3 from './pages/Newcar-3';
 import VisitorCounterNav from './pages/CountUser-Nav';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
   const location = useLocation();
 
