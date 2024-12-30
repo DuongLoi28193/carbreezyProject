@@ -882,7 +882,7 @@ function Newcar() {
                                             ${car.price}
                                         </span>
                                         <span style={{ fontSize: "22px", color: "#555", fontWeight: "400" }} className="priceCar_menu">
-                                            <div className='box-extra_icon-price'>
+                                            <div style={{ columnGap: "3px" }} className='box-extra_icon-price'>
                                                 <FontAwesomeIcon className='iconTags' icon={faTags} />${car.priceWithout} (Price without DPH)
                                             </div>
                                         </span>
