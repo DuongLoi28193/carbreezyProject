@@ -17,15 +17,23 @@ function Footer() {
 
     const checkPhone = (e) => {
         const valPhone = e.target.value;
+
+        setPhone(valPhone);
         if (valPhone === "") {
             setErrorPhone("Phone must be required");
-        } else {
+        }
+
+        else {
             setErrorPhone("");
         }
-        setPhone(valPhone);
     }
 
     const registerSubmit = () => {
+        if (errorPhone !== "") {
+            alert(Error + " ❌");
+            return;
+        }
+
         if (phone === "") {
             alert("Phone field can't be left blank ❌");
         } else if (!rePhone.test(phone)) {
