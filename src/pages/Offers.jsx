@@ -22,21 +22,19 @@ function Offers({ dataUsed }) {
                 <div>
                     <div className="container_offers-car-basic">
                         {/* offer-car-1 */}
-                        <div className="offers-car_item-1" id="offer1" >
+                        <div onClick={() => nav(`/newCar/11`)} className="offers-car_item-1" id="offer1" >
                             <img className="img-offers-car-1" src={process.env.PUBLIC_URL + "/img/kia02.jpg"} alt="" />
                             <div className="infoCar-offers">
                                 <p className="nameCar-offers">Kia Carens Signature Premium MPV 2023</p>
                                 <p className="descCar-offers">Spacious design, advanced technology, and powerful performance. The perfect choice for your family! Explore now and enjoy exclusive offers!</p>
-                                <button onClick={() => nav(`/newCar/11`)} className="btnView-offers btn-greeting-Offers">View Details</button>
                             </div>
                         </div>
 
                         {/* offer-car-2 */}
-                        <div className="offers-car_item-1">
+                        <div onClick={() => nav(`/newCar/22`)} className="offers-car_item-1">
                             <div className="infoCar-offers">
                                 <p className="nameCar-offers">Tesla Model 3 Long Range Dual Motor AWD 2022</p>
                                 <p className="descCar-offers">Experience unmatched range, dual-motor precision, and cutting-edge technology. Drive the future today with Tesla. Book your test drive now!</p>
-                                <button onClick={() => nav(`/newCar/22`)} className="btnView-offers btn-greeting-Offers">View Details</button>
                             </div>
                             <img className="img-offers-car-1" src={process.env.PUBLIC_URL + "/img/tesla006.jpg"} alt="" />
                         </div>
