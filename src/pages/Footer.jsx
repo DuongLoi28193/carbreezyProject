@@ -74,13 +74,29 @@ function Footer() {
 
             <div className="container__footer">
                 <div className="box__social-footer">
-                    <img className="logo-img__footer" src={process.env.PUBLIC_URL+"/img/mainlogo.jpg"} alt="" />
+                    <img className="logo-img__footer" src={process.env.PUBLIC_URL + "/img/mainlogo.jpg"} alt="" />
                     <p className="slogan__footer">CarBreezy – Vietnam's top used car platform, offering a fast, transparent, and trusted experience.</p>
                     <div className='box-icon__footer'>
-                        <FontAwesomeIcon className='icon__footer' icon={['fab', 'facebook']} />
-                        <FontAwesomeIcon className='icon__footer' icon={['fab', 'youtube']} />
-                        <FontAwesomeIcon className='icon__footer' icon={['fab', 'x-twitter']} />
-                        <FontAwesomeIcon className='icon__footer' icon={['fab', 'linkedin']} />
+                        <div>
+                            <a style={{ display: "inline-block", width: "100%" }} href="https://www.facebook.com/easypeasycarbreezy" target='_blank'>
+                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'facebook']} />
+                            </a>
+                        </div>
+                        <div>
+                            <a style={{ display: "inline-block", width: "100%" }} href="https://www.youtube.com/@carbreezy1639" target='_blank'>
+                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'youtube']} />
+                            </a>
+                        </div>
+                        <div>
+                            <a style={{ display: "inline-block", width: "100%" }} href="https://x.com/EasyCarBreezy" target='_blank'>
+                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'x-twitter']} />
+                            </a>
+                        </div>
+                        <div>
+                            <a style={{ display: "inline-block", width: "100%" }} href="https://www.linkedin.com/company/carbreezy/" target='_blank'>
+                                <FontAwesomeIcon style={{ width: "70px" }} className='icon__footer' icon={['fab', 'linkedin']} />
+                            </a>
+                        </div>
                     </div>
 
                 </div>

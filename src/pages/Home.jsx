@@ -125,7 +125,7 @@ function Home() {
                         </div>
                         <div className="feedback-item">
                             <div className='header-feedback'>
-                                <img className='star' src={process.env.PUBLIC_URL + "../img/star.png"} alt="" />
+                                <img className='star' src={process.env.PUBLIC_URL + "/img/star.png"} alt="" />
                                 <div style={{ width: "70px" }}></div>
                                 <p className='day'>06/04/2023</p>
                             </div>
@@ -136,7 +136,7 @@ function Home() {
                         </div>
                         <div className="feedback-item">
                             <div className='header-feedback'>
-                                <img className='star' src={process.env.PUBLIC_URL + "../img/star.png"} alt="" />
+                                <img className='star' src={process.env.PUBLIC_URL + "/img/star.png"} alt="" />
                                 <div style={{ width: "70px" }}></div>
                                 <p className='day'>20/12/2024</p>
                             </div>

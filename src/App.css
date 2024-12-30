@@ -1078,13 +1078,14 @@ button {
   border-radius: 10px;
 }
 
-.cont-us_ggmap iframe{
+.cont-us_ggmap iframe {
   width: 80%;
   height: 600px;
   border-radius: 10px;
 }
 
-.cont-us-getin, .cont-us-about {
+.cont-us-getin,
+.cont-us-about {
   flex-grow: 1;
 }
 
@@ -2349,7 +2350,7 @@ body {
 
 /* common */
 .logo_container {
-  width: 12%;
+  width: 15%;
 }
 
 .logo {
@@ -2521,7 +2522,7 @@ nav .nav-left {
   top: 100%;
   left: 0;
   background-color: #fff;
-border: 1px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 5px;
   padding: 5px 0;
   list-style: none;
