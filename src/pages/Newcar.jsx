@@ -1,7 +1,7 @@
 import { Routes, Route, Link, useNavigate } from 'react-router-dom'
 import FAQComponent from './FAQ'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGasPump, faCogs, faSearch, faTags, faCar } from '@fortawesome/free-solid-svg-icons';
+import { faGasPump, faCogs, faSearch, faTags, faCar, faRotateLeft, faRotateLeft } from '@fortawesome/free-solid-svg-icons';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Footer';
@@ -715,29 +715,29 @@ function Newcar() {
             }
         ];
 
-        const nav = useNavigate();
+    const nav = useNavigate();
 
-        const [searchTerm, setSearchTerm] = useState("");
-        const [brandFilter, setBrandFilter] = useState("");
-        const [fuelFilter, setFuelFilter] = useState("");
-        const [sortOrder, setSortOrder] = useState("");
-    
-        const filteredCars = cars
-            .filter(car =>
-                car.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
-                (brandFilter === "" || car.brand.toLowerCase() === brandFilter.toLowerCase()) &&
-                (fuelFilter === "" || car.fuel.toLowerCase() === fuelFilter.toLowerCase())
-            )
-            .sort((a, b) => {
-                if (sortOrder === "lowToHigh") {
-                    return a.price - b.price;
-                } else if (sortOrder === "highToLow") {
-                    return b.price - a.price;
-                } else {
-                    return 0;
-                }
-            });
-    
+    const [searchTerm, setSearchTerm] = useState("");
+    const [brandFilter, setBrandFilter] = useState("");
+    const [fuelFilter, setFuelFilter] = useState("");
+    const [sortOrder, setSortOrder] = useState("");
+
+    const filteredCars = cars
+        .filter(car =>
+            car.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+            (brandFilter === "" || car.brand.toLowerCase() === brandFilter.toLowerCase()) &&
+            (fuelFilter === "" || car.fuel.toLowerCase() === fuelFilter.toLowerCase())
+        )
+        .sort((a, b) => {
+            if (sortOrder === "lowToHigh") {
+                return a.price - b.price;
+            } else if (sortOrder === "highToLow") {
+                return b.price - a.price;
+            } else {
+                return 0;
+            }
+        });
+
     return (
         <div>
             {/* space white  */}
@@ -858,14 +858,14 @@ function Newcar() {
                             <option value="lowToHigh">Price From Low To High</option>
                             <option value="highToLow">Price From High To Low</option>
                         </select>
-                        
+
                         <button className='btn-reset' onClick={() => {
                             setSearchTerm("");
                             setBrandFilter("");
                             setFuelFilter("");
                             setSortOrder("");
                         }}>
-                            Reset filter
+                            <FontAwesomeIcon icon={faRotateLeft}> filter
                         </button>
                     </div>
 
@@ -928,11 +928,11 @@ function Newcar() {
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                </div>                            
+                                </div>
+                            </div>
                         ))}
                     </div>
-                    
+
                 </div>
 
                 {/* box nav car-page  */}
