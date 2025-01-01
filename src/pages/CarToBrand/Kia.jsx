@@ -104,7 +104,7 @@ const KIAnew = () => {
       name: "Kia Sonet 1.5L Premium Compact SUV 2022",
       model: "SUV",
       price: 15000,
-      seats: 5,
+      seats: "5 seats",
       fuel: "Gasoline",
       transmission: "CVT",
       height: "1642 mm",
@@ -112,7 +112,9 @@ const KIAnew = () => {
       length: "4120 mm",
       color: "Red",
       imgSrc: process.env.PUBLIC_URL + "/img/kia26.jpg",
-      year: 2022
+      year: 2022,
+      priceWithout: 13250,
+      power: "85 kW"
     },
     {
       id: 38,
@@ -152,7 +154,7 @@ const KIAnew = () => {
         <svg className='chevron-right' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
           <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clip-rule="evenodd" />
         </svg>
-        <span className='content_nav-page'>Purchase a pre-owned car</span>
+        <span className='content_nav-page'>Kia</span>
       </div>
 
       {/* carousel logo */}

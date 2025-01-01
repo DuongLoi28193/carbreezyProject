@@ -12,7 +12,7 @@ const HONDAnew = () => {
       brand: "HONDA",
       name: "Honda Brio RS 1.2L i-VTEC Automatic Hatchback 2021",
       model: "Hatchback",
-      price: "16,100",
+      price: 16100,
       seats: "5 seats",
       fuel: "Gasoline",
       transmission: "CVT",
@@ -30,7 +30,7 @@ const HONDAnew = () => {
       brand: "HONDA",
       name: "Honda City L 1.5L i-VTEC Automatic Sedan 2023",
       model: "SEDAN",
-      price: "20,500",
+      price: 20500,
       seats: "5 seats",
       fuel: "Gasoline",
       transmission: "CVT",
@@ -48,7 +48,7 @@ const HONDAnew = () => {
       brand: "HONDA",
       name: "Honda Civic E 1.8L i-VTEC Automatic Sedan 2021",
       model: "SEDAN",
-      price: "26,500",
+      price: 26500,
       seats: "5 seats",
       fuel: "Gasoline",
       transmission: "CVT",
@@ -66,7 +66,7 @@ const HONDAnew = () => {
       brand: "HONDA",
       name: "Honda CR-V 1.5L VTEC Turbo Automatic SUV 2022",
       model: "CUV",
-      price: "31,250",
+      price: 31250,
       seats: "7 seats",
       fuel: "Gasoline",
       transmission: "CVT",
@@ -84,7 +84,7 @@ const HONDAnew = () => {
       brand: "HONDA",
       name: "Honda CR-V 1.5L VTEC Turbo Automatic SUV 2019",
       model: "CUV",
-      price: "31,250",
+      price: 31250,
       seats: "7 seats",
       fuel: "Gasoline",
       transmission: "CVT",
@@ -121,7 +121,7 @@ const HONDAnew = () => {
       name: "Honda BR-V 1.5L i-VTEC Elite Edition SUV",
       model: "MPV",
       price: 32500,
-      seats: 7,
+      seats: "7 seats",
       fuel: "Gasoline",
       transmission: "Stepless CVT",
       height: "1685 mm",
@@ -153,7 +153,7 @@ const HONDAnew = () => {
         <svg className='chevron-right' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
           <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clip-rule="evenodd" />
         </svg>
-        <span className='content_nav-page'>Purchase a pre-owned car</span>
+        <span className='content_nav-page'>Honda</span>
       </div>
 
       {/* carousel logo */}
