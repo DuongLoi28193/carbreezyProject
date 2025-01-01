@@ -5920,22 +5920,22 @@ main {
   .scroll-to-top-btn {
     width: 45px;
   }
+}
 
-  /* Animation - FadeInOut */
-  @keyframes fadeInOut {
 
-    0%,
-    100% {
-      opacity: 0;
-    }
+/* Animation - FadeInOut */
+@keyframes fadeInOut {
 
-    50% {
-      opacity: 1;
-    }
+  0%,
+  100% {
+    opacity: 0;
   }
 
-  .luxury-text {
-    animation: fadeInOut 2s infinite;
+  50% {
+    opacity: 1;
   }
+}
 
+.luxury-text {
+  animation: fadeInOut 2s infinite;
 }
