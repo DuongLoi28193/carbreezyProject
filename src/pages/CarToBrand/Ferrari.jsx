@@ -114,7 +114,7 @@ const FERRARInew = () => {
       imgSrc: process.env.PUBLIC_URL + "/img/ferrari29.jpg",
       year: 2016,
       power: "493 kW",
-      priceWithout: 22800
+      priceWithout: 188000
     }
   ];
 
