@@ -121,7 +121,7 @@ function Home() {
                             <p className='info_title-feedback'>Mr. Nguyen Van Dinh bought an Mustang car.</p>
                             <p className='info_detail-feedback'>Completely satisfied with the quality of the cars as well as the staff at the branch. I have no complaints about CarBreezy</p>
                             <p className='info-title-footer-a'>Mr. Nguyen Van Dinh - TPHCM</p>
-                            <p className='info-car'>Ford Mustang</p>
+                            <p className='info-car'>Ford Ranger</p>
                         </div>
                         <div className="feedback-item">
                             <div className='header-feedback'>
@@ -143,7 +143,7 @@ function Home() {
                             <p className='info_title-feedback'>Mr. Michael Gillian bought an Purosangue 2024.</p>
                             <p className='info_detail-feedback'>CarBreezy and the professional staff for creating a memorable car buying experience. Wish CarBreezy more and more development and continue to bring joy to many other customers like me.</p>
                             <p className='info-title-footer-c'>Mr. Michael Gillian - New York</p>
-                            <p className='info-car'>Ferrari Purosangue 2024</p>
+                            <p className='info-car'>Ferrari Monza</p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ function Home() {
                 <div className='banner'>
                     <p className='title-banner'>CarBreezy -  Used Car Trading Platform</p>
                     <div style={{ justifyContent: "center", display: "flex", gap: "20px" }}>
-                        <Link to="/newCar">
+                        <Link to="/used-car">
                             <button className='btn-buyCar'>Buy car now</button>
                         </Link>
                     </div>

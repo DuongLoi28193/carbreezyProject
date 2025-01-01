@@ -171,7 +171,7 @@ function Footer() {
                     <div className='box-contentAbove__footer'>
                         <div className='box-signUp__footer'>
                             <p className='sign-up_insurance'>Sign up to buy insurance at CarBreezy</p>
-                            <p className='get-the-lastes'>Get the latest deals, promotions & exclusive benefits straight to your inbox</p>
+                            <p className='get-the-lastes'>Subscribe now for the latest car insurance deals, promotions, and benefits directly to your inbox!</p>
                             <div>
                                 <input onChange={checkPhone} className='input__footer' type="text" placeholder='Enter your phone number' />
                                 <button onClick={registerSubmit} className='btn-register_footer'>Register</button>
