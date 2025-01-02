@@ -2664,6 +2664,7 @@ nav .nav-right {
   width: 100%;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .reason-content {
@@ -4674,7 +4675,7 @@ main {
 }
 
 .icon__footer {
-  width: 70px;
+  width: 52px;
   font-size: 33px;
   color: #000;
   cursor: pointer;
