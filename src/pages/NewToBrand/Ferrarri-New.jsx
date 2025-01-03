@@ -178,7 +178,7 @@ const FERRARInew = () => {
         </div>
       </div>
 
-      {/*show used car - CUV  */}
+      {/*show used car  */}
       <div className="car-menu" >
         <div className="car-grid center-temp">
           {cars.map((car) => (

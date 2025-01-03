@@ -107,7 +107,6 @@ function App() {
         {/* navbar for tablet & mobile */}
         <div className='mobile-tablet_menu'>
           <div className='res_header-menu'>
-            {/* <img className='logo logo-menu' src={process.env.PUBLIC_URL + "/img/Group_193-removebg-preview.png"} alt="" /> */}
             <label htmlFor="check-menu">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7">
                 <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -216,9 +215,6 @@ function App() {
         <Route path='/newCar/PICKUP' element={<PICKUPnew />} />
         <Route path='/newCar/SUPPER-CAR' element={<SUPPERCARnew />} />
 
-
-
-
         {/* usedCar to model */}
         <Route path='/used-car/CUV' element={<CUVused />} />
         <Route path='/used-car/SUV' element={<SUVused />} />
@@ -242,14 +238,12 @@ function App() {
         <Route path='/used-car/ford/:ID' element={<CarDetailUsed dataUsed={listCarUsed} />} />
         <Route path='/used-car/mazda/:ID' element={<CarDetailUsed dataUsed={listCarUsed} />} />
 
-
         {/* link: /used-car/MODEL/ID */}
         <Route path="/used-car/CUV/:ID" element={<CarDetailUsed dataUsed={listCarUsed} />} />
         <Route path="/used-car/SUV/:ID" element={<CarDetailUsed dataUsed={listCarUsed} />} />
         <Route path="/used-car/MPV/:ID" element={<CarDetailUsed dataUsed={listCarUsed} />} />
         <Route path="/used-car/SEDAN/:ID" element={<CarDetailUsed dataUsed={listCarUsed} />} />
         <Route path="/used-car/PICKUP/:ID" element={<CarDetailUsed dataUsed={listCarUsed} />} />
-
       </Routes>
 
 

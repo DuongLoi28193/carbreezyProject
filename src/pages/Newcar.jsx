@@ -826,8 +826,7 @@ function Newcar() {
                         <p className='title-search'>Brands:</p>
                         <select
                             value={brandFilter}
-                            onChange={(e) => setBrandFilter(e.target.value)}
-                        >
+                            onChange={(e) => setBrandFilter(e.target.value)}>
                             <option value="">All</option>
                             <option value="Ford">Ford</option>
                             <option value="KIA">Kia</option>

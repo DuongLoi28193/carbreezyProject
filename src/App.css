@@ -9,14 +9,12 @@
 /* CarDetails */
 .vsit-history {
   margin-top: 40px;
-  /* Giảm kích thước margin */
 }
 
 .viewcar {
   display: flex;
   gap: 15px;
   width: 90%;
-  /* Tăng độ rộng so với container */
   margin: 0 auto;
   padding: 15px;
   background-color: #f9f9f9;
@@ -41,13 +39,11 @@
 .viewcar .pic-item {
   display: flex;
   height: 150px;
-  /* Điều chỉnh chiều cao nhỏ hơn */
   justify-content: space-around;
 }
 
 .viewcar .pic-item img {
   width: 180px;
-  /* Giảm kích thước ảnh */
   height: 100%;
   border-radius: 4px;
   cursor: pointer;
@@ -67,7 +63,6 @@
 
 .viewcar .info h1 {
   font-size: 2rem;
-  /* Giảm kích thước chữ */
   font-weight: 700;
   margin-bottom: 8px;
   color: #333;
@@ -75,7 +70,6 @@
 
 .viewcar .info span {
   font-size: 1.5rem;
-  /* Giảm kích thước giá */
   font-weight: bold;
   color: black;
   display: block;
@@ -88,20 +82,17 @@
   gap: 8px;
   margin-bottom: 15px;
   width: 100%;
-  /* Tăng độ rộng */
 }
 
 .detail-btn-phone,
 .detail-btn-mail,
 .detail-btn-share {
   width: 150px;
-  /* Điều chỉnh chiều rộng nút */
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  /* Điều chỉnh cỡ chữ */
 }
 
 .detail-btn-phone {
@@ -126,7 +117,6 @@
   display: flex;
   align-items: center;
   font-size: 0.9rem;
-  /* Điều chỉnh cỡ chữ nhỏ hơn */
   color: #555;
 }
 
@@ -134,7 +124,6 @@
   margin-right: 4px;
   color: #333;
   width: 24px;
-  /* Giảm kích thước icon */
   height: 24px;
 }
 
@@ -158,10 +147,8 @@
 .details-contact-us {
   display: flex;
   height: 40px;
-  /* Giảm chiều cao */
   margin: 10px auto;
   font-size: 0.9rem;
-  /* Giảm cỡ chữ */
   color: #333;
   gap: 20px;
   width: 90%;
@@ -173,7 +160,6 @@
 
 .small-banner h1 {
   font-size: 1.5rem;
-  /* Giảm kích thước chữ */
   text-align: center;
 }
 
@@ -184,11 +170,9 @@
 
 .buy-sale2 {
   font-size: 1rem;
-  /* Giảm kích thước chữ */
   padding: 5px 10px;
 }
 
-/* pop up for test drive */
 .popUp-testDrive {
   position: fixed;
   top: 50%;
@@ -506,58 +490,45 @@ button {
 .table-container {
   margin-bottom: 30px;
   margin: 20px auto;
-  /* Canh giữa */
   border-radius: 8px;
-  /* Bo góc bảng */
   overflow: hidden;
-  /* Ẩn phần tràn */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  /* Hiệu ứng đổ bóng */
   background-color: #f9fbfc;
-  /* Nền nhạt */
   width: 90%;
-  /* Độ rộng bảng */
 }
 
 .table-container table {
   width: 100%;
   border-collapse: collapse;
-  /* Loại bỏ khoảng cách giữa các ô */
 }
 
 .table-container th,
 .table-container td {
   padding: 12px 16px;
-  /* Khoảng cách trong ô */
   text-align: left;
   font-size: 14px;
 }
 
 .table-container th {
   background-color: #e8f0f7;
-  /* Nền nhạt cho tiêu đề */
   color: #333;
   font-weight: bold;
 }
 
 .table-container td {
   border-bottom: 1px solid #dfe5ea;
-  /* Đường kẻ mỏng giữa các hàng */
   color: #555;
 }
 
 .table-container tr.group-header td {
   background-color: #d6e6f2;
-  /* Nền nhạt hơn cho header từng nhóm */
   font-weight: bold;
   font-size: 15px;
 }
 
 .table-title {
   text-align: center;
-  /* Canh giữa tiêu đề */
   font-size: 1.8rem;
-  /* Tăng cỡ chữ tiêu đề */
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
@@ -565,7 +536,6 @@ button {
 
 .table-container tr:last-child td {
   border-bottom: none;
-  /* Xóa đường kẻ dưới cùng */
 }
 
 
@@ -645,7 +615,6 @@ button {
 
 .slick-dots li button:before {
   color: black;
-  /* Màu cho các dấu chấm */
 }
 
 .slick-prev,
@@ -715,7 +684,6 @@ button {
 }
 
 .used-view {
-  /* background-color: gray; */
   margin: 20px auto;
 }
 
@@ -764,7 +732,6 @@ button {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #F2F4FA;
-  /* padding: 15px; */
   border-radius: 10px;
   gap: 15px;
   padding-bottom: 24px;
@@ -1017,14 +984,12 @@ button {
 /* CarDetails */
 .vsit-history {
   margin-top: 40px;
-  /* Giảm kích thước margin */
 }
 
 .viewcar {
   display: flex;
   gap: 15px;
   width: 90%;
-  /* Tăng độ rộng so với container */
   margin: 0 auto;
   padding: 15px;
   background-color: #f9f9f9;
@@ -1049,13 +1014,11 @@ button {
 .viewcar .pic-item {
   display: flex;
   height: 150px;
-  /* Điều chỉnh chiều cao nhỏ hơn */
   justify-content: space-around;
 }
 
 .viewcar .pic-item img {
   width: 180px;
-  /* Giảm kích thước ảnh */
   height: 100%;
   border-radius: 4px;
   cursor: pointer;
@@ -1075,7 +1038,6 @@ button {
 
 .viewcar .info h1 {
   font-size: 2rem;
-  /* Giảm kích thước chữ */
   font-weight: 700;
   margin-bottom: 8px;
   color: #333;
@@ -1083,7 +1045,6 @@ button {
 
 .viewcar .info span {
   font-size: 1.5rem;
-  /* Giảm kích thước giá */
   font-weight: bold;
   color: black;
   display: block;
@@ -1096,20 +1057,17 @@ button {
   gap: 8px;
   margin-bottom: 15px;
   width: 100%;
-  /* Tăng độ rộng */
 }
 
 .detail-btn-phone,
 .detail-btn-mail,
 .detail-btn-share {
   width: 150px;
-  /* Điều chỉnh chiều rộng nút */
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  /* Điều chỉnh cỡ chữ */
 }
 
 .detail-btn-phone {
@@ -1134,7 +1092,6 @@ button {
   display: flex;
   align-items: center;
   font-size: 0.9rem;
-  /* Điều chỉnh cỡ chữ nhỏ hơn */
   color: #555;
 }
 
@@ -1142,7 +1099,6 @@ button {
   margin-right: 4px;
   color: #333;
   width: 24px;
-  /* Giảm kích thước icon */
   height: 24px;
 }
 
@@ -1166,10 +1122,8 @@ button {
 .details-contact-us {
   display: flex;
   height: 40px;
-  /* Giảm chiều cao */
   margin: 10px auto;
   font-size: 0.9rem;
-  /* Giảm cỡ chữ */
   color: #333;
   gap: 20px;
   width: 90%;
@@ -1181,7 +1135,6 @@ button {
 
 .small-banner h1 {
   font-size: 1.5rem;
-  /* Giảm kích thước chữ */
   text-align: center;
 }
 
@@ -1192,7 +1145,6 @@ button {
 
 .buy-sale2 {
   font-size: 1rem;
-  /* Giảm kích thước chữ */
   padding: 5px 10px;
 }
 
@@ -1514,58 +1466,45 @@ button {
 .table-container {
   margin-bottom: 30px;
   margin: 20px auto;
-  /* Canh giữa */
   border-radius: 8px;
-  /* Bo góc bảng */
   overflow: hidden;
-  /* Ẩn phần tràn */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  /* Hiệu ứng đổ bóng */
   background-color: #f9fbfc;
-  /* Nền nhạt */
   width: 90%;
-  /* Độ rộng bảng */
 }
 
 .table-container table {
   width: 100%;
   border-collapse: collapse;
-  /* Loại bỏ khoảng cách giữa các ô */
 }
 
 .table-container th,
 .table-container td {
   padding: 12px 16px;
-  /* Khoảng cách trong ô */
   text-align: left;
   font-size: 14px;
 }
 
 .table-container th {
   background-color: #e8f0f7;
-  /* Nền nhạt cho tiêu đề */
   color: #333;
   font-weight: bold;
 }
 
 .table-container td {
   border-bottom: 1px solid #dfe5ea;
-  /* Đường kẻ mỏng giữa các hàng */
   color: #555;
 }
 
 .table-container tr.group-header td {
   background-color: #d6e6f2;
-  /* Nền nhạt hơn cho header từng nhóm */
   font-weight: bold;
   font-size: 15px;
 }
 
 .table-title {
   text-align: center;
-  /* Canh giữa tiêu đề */
   font-size: 1.8rem;
-  /* Tăng cỡ chữ tiêu đề */
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
@@ -1573,7 +1512,6 @@ button {
 
 .table-container tr:last-child td {
   border-bottom: none;
-  /* Xóa đường kẻ dưới cùng */
 }
 
 
@@ -1653,7 +1591,6 @@ button {
 
 .slick-dots li button:before {
   color: black;
-  /* Màu cho các dấu chấm */
 }
 
 .slick-prev,
@@ -1723,7 +1660,6 @@ button {
 }
 
 .used-view {
-  /* background-color: gray; */
   margin: 20px auto;
 }
 
@@ -1772,7 +1708,6 @@ button {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #F2F4FA;
-  /* padding: 15px; */
   border-radius: 10px;
   gap: 15px;
   padding-bottom: 24px;
@@ -2904,7 +2839,6 @@ nav .nav-right {
   flex-direction: column;
   align-items: start;
   width: 40%;
-  /* padding-left: 70px; */
 }
 
 .box-register-insurance input {
@@ -2956,7 +2890,6 @@ nav .nav-right {
   display: flex;
   justify-content: start;
   column-gap: 100px;
-  /* margin-left: 80px; */
 
 }
 
@@ -3566,27 +3499,23 @@ main {
 @keyframes fadeMove {
   0% {
     top: 100%;
-    /* Bắt đầu ở ngoài khung nhìn */
     opacity: 0;
   }
 
   10%,
   30% {
     top: 50%;
-    /* Di chuyển vào giữa khung nhìn */
     opacity: 1;
   }
 
   50% {
     top: 50%;
-    /* Giữ ở giữa khung nhìn */
     opacity: 1;
   }
 
   60%,
   100% {
     top: -100%;
-    /* Di chuyển ra ngoài khung nhìn */
     opacity: 0;
   }
 }
@@ -4192,7 +4121,6 @@ main {
 .carMenu-infor-item .icon-menu {
   color: hsl(220, 13%, 50%);
   font-size: 16px;
-  /* width: 15%; */
 }
 
 .box_seeMore-menu-btn {
@@ -4411,7 +4339,6 @@ main {
   background-color: #22C55E;
   color: #fff;
   font-weight: bold;
-  /* width: 100%; */
 }
 
 .box-buttonContact__details button:first-child:hover {
@@ -4419,14 +4346,12 @@ main {
 }
 
 .box-buttonContact__details button:not(:first-child):not(:last-child) {
-  /* background-color: #D01919; */
   background-color: #FFA500;
   color: #fff;
   font-weight: bold;
 }
 
 .box-buttonContact__details button:not(:first-child):not(:last-child):hover {
-  /* background-color: hsl(0, 79%, 36%); */
   background-color: hsl(39, 100%, 40%);
 }
 
@@ -4512,7 +4437,6 @@ main {
 
 .box-detail__speci-extra {
   display: flex;
-  /* background-color: burlywood; */
   width: 100%;
   column-gap: 30px;
 }
@@ -4735,10 +4659,6 @@ main {
   justify-content: space-between;
   gap: 20px;
 
-}
-
-.col-item__footer {
-  /* width: 20%; */
 }
 
 .content-col__footer {
@@ -5295,7 +5215,6 @@ main {
   /* filter box */
   .car-item {
     flex-direction: column;
-    /* height: auto; */
   }
 
   .container_img-car {
@@ -5473,7 +5392,6 @@ main {
   .carousel-container {
     position: relative;
     width: 100%;
-    /* height: 400px; */
     overflow: hidden;
   }
 

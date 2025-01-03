@@ -224,7 +224,7 @@ function CarDetail({ data }) {
                         <TestDriveForm />
                     </div >
                 ) : (
-                    <p>Không có ảnh hoặc dữ liệu không hợp lệ</p>
+                    <p>No image or invalid data</p>
                 )
                 }
                 <div>

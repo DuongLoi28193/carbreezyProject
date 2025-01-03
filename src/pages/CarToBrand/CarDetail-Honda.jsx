@@ -95,10 +95,8 @@ function CarDetailHONDA({ data }) {
                             ))}
                         </div>
 
-                        {/* Thêm Carousel vào đây */}
                         <div className="container__carouselDetail">
                             <SimpleCarousel />
-
                         </div>
 
                         <div className="box_info-car">

@@ -7,57 +7,57 @@ import Footer from '../Footer';
 
 function CarDetailFERRARI({ data }) {
     const { ID } = useParams();
-        const [selectedImage, setSelectedImage] = useState("");
-    
-        const index = data.findIndex((item) => item.id === ID);
-        const dataItem = data[index];
-    
-        useEffect(() => {
-            if (dataItem && Array.isArray(dataItem.imgSrc) && dataItem.imgSrc.length > 0) {
-                setSelectedImage(dataItem.imgSrc[0]);
-            }
-        }, [dataItem]);
-    
-        const handleImageClick = (imageSrc) => {
-            setSelectedImage(imageSrc);
-        };
-    
-        const SimpleCarousel = () => {
-            const slides = [
-                dataItem.imgSrc[0],
-                dataItem.imgSrc[1],
-                dataItem.imgSrc[2],
-                dataItem.imgSrc[3]
-            ];
-    
-            const [currentSlide, setCurrentSlide] = useState(0);
-    
-            const nextSlide = () => {
-                setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-            };
-    
-            const prevSlide = () => {
-                setCurrentSlide((prevSlide) =>
-                    prevSlide === 0 ? slides.length - 1 : prevSlide - 1
-                );
-            };
-    
-            return (
-                <div className="carousel-container" style={{ maxWidth: "500px", margin: "auto", textAlign: "center" }}>
-                    <div className="carousel-slide" >
-                        <img src={`${process.env.PUBLIC_URL}${slides[currentSlide]}`} alt={`Slide ${currentSlide + 1}`} style={{ width: '100%', borderRadius: '10px' }} />
-                    </div>
-                    <div className="carousel-controls" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                        <button onClick={prevSlide} style={{ background: "none", border: "none", fontSize: "30px", cursor: "pointer", marginTop: "-210px", color: "#fff", width: "80px", marginLeft: "-10px" }}>
-                            <FontAwesomeIcon className="icon-chervon-img__details" icon={faChevronLeft} />
-                        </button>
-                        <button onClick={nextSlide} style={{ background: "none", border: "none", fontSize: "30px", cursor: "pointer", marginTop: "-210px", color: "#fff", marginRight: "-160px" }}>
-                            <FontAwesomeIcon className="icon-chervon-img__details" icon={faChevronRight} />
-                        </button>
-                    </div>
-                </div>
-            );
+    const [selectedImage, setSelectedImage] = useState("");
+
+    const index = data.findIndex((item) => item.id === ID);
+    const dataItem = data[index];
+
+    useEffect(() => {
+        if (dataItem && Array.isArray(dataItem.imgSrc) && dataItem.imgSrc.length > 0) {
+            setSelectedImage(dataItem.imgSrc[0]);
         }
+    }, [dataItem]);
+
+    const handleImageClick = (imageSrc) => {
+        setSelectedImage(imageSrc);
+    };
+
+    const SimpleCarousel = () => {
+        const slides = [
+            dataItem.imgSrc[0],
+            dataItem.imgSrc[1],
+            dataItem.imgSrc[2],
+            dataItem.imgSrc[3]
+        ];
+
+        const [currentSlide, setCurrentSlide] = useState(0);
+
+        const nextSlide = () => {
+            setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+        };
+
+        const prevSlide = () => {
+            setCurrentSlide((prevSlide) =>
+                prevSlide === 0 ? slides.length - 1 : prevSlide - 1
+            );
+        };
+
+        return (
+            <div className="carousel-container" style={{ maxWidth: "500px", margin: "auto", textAlign: "center" }}>
+                <div className="carousel-slide" >
+                    <img src={`${process.env.PUBLIC_URL}${slides[currentSlide]}`} alt={`Slide ${currentSlide + 1}`} style={{ width: '100%', borderRadius: '10px' }} />
+                </div>
+                <div className="carousel-controls" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <button onClick={prevSlide} style={{ background: "none", border: "none", fontSize: "30px", cursor: "pointer", marginTop: "-210px", color: "#fff", width: "80px", marginLeft: "-10px" }}>
+                        <FontAwesomeIcon className="icon-chervon-img__details" icon={faChevronLeft} />
+                    </button>
+                    <button onClick={nextSlide} style={{ background: "none", border: "none", fontSize: "30px", cursor: "pointer", marginTop: "-210px", color: "#fff", marginRight: "-160px" }}>
+                        <FontAwesomeIcon className="icon-chervon-img__details" icon={faChevronRight} />
+                    </button>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div>
@@ -95,10 +95,8 @@ function CarDetailFERRARI({ data }) {
                             ))}
                         </div>
 
-                        {/* Thêm Carousel vào đây */}
                         <div className="container__carouselDetail">
                             <SimpleCarousel />
-
                         </div>
 
                         <div className="box_info-car">
@@ -250,11 +248,11 @@ function CarDetailFERRARI({ data }) {
                     </div>
 
                 ) : (
-                    <p>Không có ảnh hoặc dữ liệu không hợp lệ</p>  
+                    <p>Không có ảnh hoặc dữ liệu không hợp lệ</p>
                 )
                 }
-                <div>                    
-                    <Footer/>
+                <div>
+                    <Footer />
                 </div>
             </main >
         </div >
